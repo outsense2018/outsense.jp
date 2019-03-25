@@ -1,12 +1,13 @@
 import { h } from 'hyperapp' // @jsx h
 
 export default () => state => (
-  <section>
+  <section className="team">
     <h2>Team</h2>
     <p>OUTSENSEで活動しているコアメンバーの紹介</p>
 
     <ul>
       <li>
+        <img src="./images/team/YozanTakahashi.jpg" />
         <h3>
           <span>代表取締役社長CEO</span>
           <br/>
@@ -15,6 +16,7 @@ export default () => state => (
       </li>
 
       <li>
+        <img src="./images/team/AkioIto.jpg" />
         <h3>
           <span>COO</span>
           <br/>
@@ -23,6 +25,7 @@ export default () => state => (
       </li>
 
       <li>
+        <img src="./images/team/ShugaHorii.jpg" />
         <h3>
           <span>CDO</span>
           <br/>
@@ -31,6 +34,7 @@ export default () => state => (
       </li>
 
       <li>
+        <img src="./images/team/ShintaroIshimatsu.jpg" />
         <h3>
           <span>CTO</span>
           <br/>

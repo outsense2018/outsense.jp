@@ -73,10 +73,14 @@ main {
   main * + h2 {
     margin-top: 1rem; }
   main ul {
-    padding-left: 2em;
     list-style: square; }
     main ul li {
       line-height: 2.6rem; }
+  main .team li {
+    display: inline-block;
+    width: 20%; }
+    main .team li img {
+      width: 100%; }
   main table.company-overview tr:nth-child(odd) {
     background: #1a264d; }
   main table.company-overview tr th, main table.company-overview tr td {
