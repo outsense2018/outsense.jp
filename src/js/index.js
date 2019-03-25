@@ -27,6 +27,10 @@ const actions = {
 const view = state => (
   <div>
     <SiteHeader />
+    <nav className="news">
+      <span>2019.03.03</span>
+      『ミライの月面基地』をSXSWに出展しました
+    </nav>
     <div className="cover"></div>
     <main>
       <Route path="/" render={ SiteTop } />
