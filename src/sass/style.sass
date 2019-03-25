@@ -33,7 +33,7 @@ body
     & > header.site-header
       grid-row: 1
       grid-column: 2
-      padding: 3.5rem 0 3rem
+      padding: 1.5rem 0 1.5rem
 
     & > div.cover
       grid-row: 2
@@ -48,23 +48,42 @@ body
       grid-column: 2
       padding: 3rem 0
 
-a
-  color: hsl(225, 100%, 40%)
-  text-decoration: none
-
-  &:hover
-    text-decoration: underline
+  a
+    color: #FFF
+    text-decoration: none
 
 header.site-header
+  display: grid
+  grid-template-columns: 17rem auto
+
   h1
+    grid-row: 1
+    grid-column: 1
+    width: 17rem
+    height: 4rem
     font-size: 2.5rem
+    background-image: url("../images/OutsenseLogo.png")
+    background-size: contain
+    background-repeat: no-repeat
+    color: transparent
 
-    span
-      padding: 0 1rem
-      font-size: 1.8rem
+  nav
+    grid-row: 1
+    grid-column: 2
+    padding: 1.2rem 0
+    text-align: right
 
-      &::before
-        content: ": "
+    a
+      position: relative
+      right: -2.5rem
+      display: inline-block
+      padding: 0.5rem 2.5rem
+      font-weight: 600
+
+      & + a
+        border-left: solid 0.1rem #FFF
+
+      
 
 main
   border-bottom: solid 0.5rem hsl(225, 50%, 23%)
@@ -163,7 +182,7 @@ div.cover
   width: 100%
   height: 35vw
   min-height: 50rem
-  background-image: url(../images/cover.jpg)
+  background-image: url("../images/cover.jpg")
   background-position: center
   background-size: cover
 
