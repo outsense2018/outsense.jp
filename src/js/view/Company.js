@@ -32,7 +32,7 @@ export default () => state => (
 
     <h1>Access</h1>
     <div
-/*      oncreate={
+      oncreate={
         (element) => {
           var MyLatLng = new google.maps.LatLng(35.684776, 139.71615);
 
@@ -50,7 +50,7 @@ export default () => state => (
           }
           var marker = new google.maps.Marker(markerOptions);
         }
-      } */
+      }
     ></div>
     <p>〒160-0015 東京都新宿区大京町25-3 キングダム御苑804</p>
 
