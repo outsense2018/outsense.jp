@@ -56,17 +56,17 @@ header.site-header h1 {
       content: ": "; }
 
 main {
-  border-top: solid 0.5rem #1a264d;
-  border-bottom: solid 0.5rem #1a264d; }
+  border-top: solid 0.5rem #1c2a54;
+  border-bottom: solid 0.5rem #1c2a54; }
   main section {
     padding: 3rem 0 4rem; }
     main section + section {
-      border-top: solid 0.5rem #1a264d; }
+      border-top: solid 0.5rem #1c2a54; }
     main section h1 {
       padding: 0.5rem 0;
       font-size: 2.4rem;
       font-weight: bold;
-      color: #ff9900; }
+      color: #ffa200; }
     main section * + h1 {
       margin-top: 4rem; }
     main section h2 {
@@ -102,7 +102,7 @@ main {
         width: 100%;
         border-radius: 1rem; }
   main section.company table tr:nth-child(odd) {
-    background: #1a264d; }
+    background: #1c2a54; }
   main section.company table tr th, main section.company table tr td {
     padding: 1rem 1rem;
     font-weight: normal;
