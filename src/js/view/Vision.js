@@ -2,11 +2,11 @@ import { h } from 'hyperapp' // @jsx h
 
 export default () => state => (
   <section className="vision">
-    <h2>Vision</h2>
-    <h3>
+    <h1>Vision</h1>
+    <h2>
       あなたをどこにでも住めるようにする。<br />
       そう、それが宇宙でもね。
-    </h3>
+    </h2>
     <p>
       私たちは宇宙建築というマニアックな学術分野に興味を持った
       学生の集まりから始まりました。<br />
