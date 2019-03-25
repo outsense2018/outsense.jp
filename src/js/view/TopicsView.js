@@ -1,4 +1,3 @@
-import axios from 'axios'
 import { h } from 'hyperapp' // @jsx h
 import { Link, Route, location } from '@hyperapp/router'
 
