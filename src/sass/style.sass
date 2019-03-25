@@ -59,13 +59,16 @@ header.site-header
   h1
     grid-row: 1
     grid-column: 1
-    width: 17rem
-    height: 4rem
-    font-size: 2.5rem
-    background-image: url("../images/OutsenseLogo.png")
-    background-size: contain
-    background-repeat: no-repeat
-    color: transparent
+
+    a
+      display: block
+      width: 17rem
+      height: 4rem
+      font-size: 2.5rem
+      background-image: url("../images/OutsenseLogo.png")
+      background-size: contain
+      background-repeat: no-repeat
+      color: transparent
 
   nav
     grid-row: 1
@@ -81,7 +84,7 @@ header.site-header
       font-weight: 600
 
       & + a
-        border-left: solid 0.1rem #FFF
+        border-left: solid 0.1rem hsl(38, 100%, 50%)
 
       
 

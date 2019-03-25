@@ -52,14 +52,16 @@ header.site-header {
   grid-template-columns: 17rem auto; }
   header.site-header h1 {
     grid-row: 1;
-    grid-column: 1;
-    width: 17rem;
-    height: 4rem;
-    font-size: 2.5rem;
-    background-image: url("../images/OutsenseLogo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: transparent; }
+    grid-column: 1; }
+    header.site-header h1 a {
+      display: block;
+      width: 17rem;
+      height: 4rem;
+      font-size: 2.5rem;
+      background-image: url("../images/OutsenseLogo.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      color: transparent; }
   header.site-header nav {
     grid-row: 1;
     grid-column: 2;
@@ -72,7 +74,7 @@ header.site-header {
       padding: 0.5rem 2.5rem;
       font-weight: 600; }
       header.site-header nav a + a {
-        border-left: solid 0.1rem #FFF; }
+        border-left: solid 0.1rem #ffa200; }
 
 main {
   border-bottom: solid 0.5rem #1d2c58; }
