@@ -9,8 +9,7 @@ export default () => state => (
       <li>
         <img src="./images/team/YozanTakahashi.jpg" />
         <h3>
-          <span>代表取締役社長CEO</span>
-          <br/>
+          <span>代表取締役社長 CEO</span>
           Yozan Takahashi
         </h3>
       </li>
@@ -19,7 +18,6 @@ export default () => state => (
         <img src="./images/team/AkioIto.jpg" />
         <h3>
           <span>COO</span>
-          <br/>
           Akio Ito
         </h3>
       </li>
@@ -28,7 +26,6 @@ export default () => state => (
         <img src="./images/team/ShugaHorii.jpg" />
         <h3>
           <span>CDO</span>
-          <br/>
           Shuga Horii
         </h3>
       </li>
@@ -37,7 +34,6 @@ export default () => state => (
         <img src="./images/team/ShintaroIshimatsu.jpg" />
         <h3>
           <span>CTO</span>
-          <br/>
           Shintaro Ishimatsu
         </h3>
       </li>

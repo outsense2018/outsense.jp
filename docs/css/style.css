@@ -76,11 +76,21 @@ main {
     list-style: square; }
     main ul li {
       line-height: 2.6rem; }
-  main section.team li {
-    display: inline-block;
-    width: 20%; }
-    main section.team li img {
-      width: 100%; }
+  main section.team h3 {
+    font-weight: 700; }
+    main section.team h3 span {
+      display: block;
+      font-size: 1.4rem;
+      color: #ff9900; }
+  main section.team ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5rem; }
+    main section.team ul li {
+      list-style: none; }
+      main section.team ul li img {
+        width: 100%;
+        border-radius: 1rem; }
   main section.company table tr:nth-child(odd) {
     background: #1a264d; }
   main section.company table tr th, main section.company table tr td {
