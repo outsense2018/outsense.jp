@@ -28,15 +28,9 @@ export default () => state => (
           ・製品デザイン & 製品開発
         </td>
       </tr>
-      <tr>
-        <th>アクセス</th>
-        <td>
-          〒160-0015<br />
-          東京都新宿区大京町25-3<br />
-          キングダム御苑804
-        </td>
-      </tr>
     </table>
+
+    <h1>Access</h1>
     <div
       oncreate={
         (element) => {
@@ -58,5 +52,7 @@ export default () => state => (
         }
       }
     ></div>
+    <p>〒160-0015 東京都新宿区大京町25-3 キングダム御苑804</p>
+
   </section>
 )
