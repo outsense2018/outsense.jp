@@ -76,14 +76,14 @@ main {
     list-style: square; }
     main ul li {
       line-height: 2.6rem; }
-  main .team li {
+  main section.team li {
     display: inline-block;
     width: 20%; }
-    main .team li img {
+    main section.team li img {
       width: 100%; }
-  main table.company-overview tr:nth-child(odd) {
+  main section.company table tr:nth-child(odd) {
     background: #1a264d; }
-  main table.company-overview tr th, main table.company-overview tr td {
+  main section.company table tr th, main section.company table tr td {
     padding: 1rem 1rem;
     font-weight: normal;
     text-align: left;

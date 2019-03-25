@@ -1,10 +1,10 @@
 import { h } from 'hyperapp' // @jsx h
 
 export default () => state => (
-  <section>
+  <section className="company">
     <h2>Company</h2>
 
-    <table className="company-overview">
+    <table>
       <tr>
         <th>会社名</th>
         <td>株式会社OUTSENSE / OUTSENSE, inc.</td>
