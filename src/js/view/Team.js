@@ -3,7 +3,6 @@ import { h } from 'hyperapp' // @jsx h
 export default () => state => (
   <section className="team">
     <h1>Team</h1>
-    <p>OUTSENSEで活動しているコアメンバーの紹介</p>
 
     <ul>
       <li>
