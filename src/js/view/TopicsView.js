@@ -3,17 +3,6 @@ import { h } from 'hyperapp' // @jsx h
 import { Link, Route, location } from '@hyperapp/router'
 
 
-let doc
-axios.get('../md/topics.md')
-  .then(function (response) {
-    doc = response.data
-    console.log(doc)
-  })
-  .catch(function (error) {
-    console.log(error)
-  })
-
-
 const Topic = ({ match }) => <h3>match.params.topicId</h3>
 
 export default ({ match }) => (
