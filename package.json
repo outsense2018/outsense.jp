@@ -3,6 +3,7 @@
     "echo:nojekyll": "touch ./docs/.nojekyll",
     "echo": "npm-run-all -p echo:nojekyll",
     "copy:html": "cp ./src/index.html ./src/404.html ./docs",
+    "copy:images": "cp -r ./src/images ./docs",
     "copy:md": "cp -r ./src/md ./docs",
     "copy": "npm-run-all -p copy:*",
     "watch:js": "webpack",
