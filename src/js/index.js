@@ -27,6 +27,7 @@ const actions = {
 const view = state => (
   <div>
     <SiteHeader />
+    <div className="cover"></div>
     <main>
       <Route path="/" render={ SiteTop } />
       <Route path="/about" render={ Vision } />

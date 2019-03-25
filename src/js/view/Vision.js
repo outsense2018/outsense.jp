@@ -2,7 +2,6 @@ import { h } from 'hyperapp' // @jsx h
 
 export default () => state => (
   <section className="vision">
-    <div className="cover"></div>
     <h1>Vision</h1>
     <h2>
       あなたをどこにでも住めるようにする。<br />
