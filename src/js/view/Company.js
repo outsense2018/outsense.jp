@@ -37,5 +37,26 @@ export default () => state => (
         </td>
       </tr>
     </table>
+    <div
+      oncreate={
+        (element) => {
+          var MyLatLng = new google.maps.LatLng(35.684776, 139.71615);
+
+          var Options = {
+            zoom: 15, //地図の縮尺値
+            center: MyLatLng, //地図の中心座標
+            mapTypeId: 'roadmap' //地図の種類
+          };
+
+          var map = new google.maps.Map(element, Options);
+
+          var markerOptions = {
+            map: map,
+            position: MyLatLng
+          }
+          var marker = new google.maps.Marker(markerOptions);
+        }
+      }
+    ></div>
   </section>
 )
