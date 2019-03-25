@@ -4,7 +4,7 @@ export default () => state => (
   <section>
     <h2>Company</h2>
 
-    <table>
+    <table className="company-overview">
       <tr>
         <th>会社名</th>
         <td>株式会社OUTSENSE / OUTSENSE, inc.</td>
