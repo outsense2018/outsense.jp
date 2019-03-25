@@ -5,6 +5,9 @@ import SiteHeader from './view/SiteHeader'
 import SiteFooter from './view/SiteFooter'
 
 import SiteTop from './view/SiteTop'
+
+import Members from './view/Members'
+
 import AboutUs from './view/AboutUs'
 import TopicsView from './view/TopicsView'
 
