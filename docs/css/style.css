@@ -141,9 +141,12 @@ main {
     main section.team ul li {
       list-style: none;
       text-align: center; }
-      main section.team ul li img {
+      main section.team ul li div {
         width: 100%;
-        border-radius: 50%; }
+        padding-top: 100%;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover; }
   main section.company table {
     margin: 3rem 0;
     border-collapse: collapse; }
