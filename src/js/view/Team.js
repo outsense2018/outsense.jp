@@ -6,7 +6,7 @@ export default () => state => (
 
     <ul>
       <li>
-        <div style="background-image: url(./images/team/YozanTakahashi.jpg)"></div>
+        <div style="background-image: url(../images/team/YozanTakahashi.jpg)"></div>
         <h3>
           <span>代表取締役社長 CEO</span>
           Yozan Takahashi
@@ -14,7 +14,7 @@ export default () => state => (
       </li>
 
       <li>
-        <div style="background-image: url(./images/team/AkioIto.jpg)"></div>
+        <div style="background-image: url(../images/team/AkioIto.jpg)"></div>
         <h3>
           <span>COO</span>
           Akio Ito
@@ -22,7 +22,7 @@ export default () => state => (
       </li>
 
       <li>
-        <div style="background-image: url(./images/team/ShugaHorii.jpg)"></div>
+        <div style="background-image: url(../images/team/ShugaHorii.jpg)"></div>
         <h3>
           <span>CDO</span>
           Shuga Horii
@@ -30,7 +30,7 @@ export default () => state => (
       </li>
 
       <li>
-        <div style="background-image: url(./images/team/ShintaroIshimatsu.jpg)"></div>
+        <div style="background-image: url(../images/team/ShintaroIshimatsu.jpg)"></div>
         <h3>
           <span>CTO</span>
           Shintaro Ishimatsu
