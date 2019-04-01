@@ -8,6 +8,7 @@ import SiteTop from './view/SiteTop'
 
 import Vision from './view/Vision'
 import TopicsView from './view/TopicsView'
+import SXSW from './view/SXSW'
 
 const posts = [
   {
@@ -28,13 +29,15 @@ const view = state => (
   <div>
     <SiteHeader />
     <nav className="news">
-      <span>2019.03.03</span>
-      『ミライの月面基地』をSXSWに出展しました
+      <Link to="/sxsw">
+        <span>2019.03.03</span>
+        『ミライの月面基地』をSXSWに出展しました
+      </Link>
     </nav>
     <div className="cover"></div>
     <main>
       <Route path="/" render={ SiteTop } />
-      <Route path="/about" render={ Vision } />
+      <Route path="/sxsw" render={ SXSW } />
       <Route path="/topics" render={ TopicsView } />
     </main>
     <SiteFooter />

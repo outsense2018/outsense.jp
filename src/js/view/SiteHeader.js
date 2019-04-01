@@ -7,9 +7,7 @@ export default () => state => (
       <Link to="/">OUTSENSE</Link>
     </h1>
     <nav>
-      <Link to="/">Top</Link>
-      <Link to="/about">About</Link>
-      <Link to="/topics">Topics</Link>
+      <Link to="/">News</Link>
     </nav>
   </header>
 )
