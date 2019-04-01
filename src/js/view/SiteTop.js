@@ -1,10 +1,10 @@
 import { h } from 'hyperapp' // @jsx h
 import { Link } from '@hyperapp/router'
 
-import Team from '../view/Team'
-import Vision from './Vision'
-import Company from '../view/Company'
-import Contact from '../view/Contact'
+import Team from './SiteTop/Team'
+import Vision from './SiteTop/Vision'
+import Company from './SiteTop/Company'
+import Contact from './SiteTop/Contact'
 
 export default () => state => (
   <main>

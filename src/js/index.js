@@ -6,8 +6,7 @@ import SiteFooter from './view/SiteFooter'
 
 import SiteTop from './view/SiteTop'
 
-import Vision from './view/Vision'
-import TopicsView from './view/TopicsView'
+import Vision from './view/SiteTop/Vision'
 import SXSW from './view/SXSW'
 
 const posts = [
@@ -31,7 +30,6 @@ const view = state => (
 
     <Route path="/" render={ SiteTop } />
     <Route path="/sxsw" render={ SXSW } />
-    <Route path="/topics" render={ TopicsView } />
 
     <SiteFooter />
   </div>
