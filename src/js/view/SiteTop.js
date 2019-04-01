@@ -7,7 +7,7 @@ import Company from '../view/Company'
 import Contact from '../view/Contact'
 
 export default () => state => (
-  <div>
+  <main>
     <nav className="news">
       <Link to="/sxsw">
         <span>2019.03.03</span>
@@ -19,5 +19,5 @@ export default () => state => (
     <Team />
     <Company />
     <Contact />
-  </div>
+  </main>
 )

@@ -28,11 +28,11 @@ const actions = {
 const view = state => (
   <div>
     <SiteHeader />
-    <main>
-      <Route path="/" render={ SiteTop } />
-      <Route path="/sxsw" render={ SXSW } />
-      <Route path="/topics" render={ TopicsView } />
-    </main>
+
+    <Route path="/" render={ SiteTop } />
+    <Route path="/sxsw" render={ SXSW } />
+    <Route path="/topics" render={ TopicsView } />
+
     <SiteFooter />
   </div>
 )
