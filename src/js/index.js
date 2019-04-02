@@ -4,9 +4,7 @@ import { Link, Route, location } from '@hyperapp/router'
 import SiteHeader from './view/SiteHeader'
 import SiteFooter from './view/SiteFooter'
 
-import SiteTop from './view/SiteTop'
-
-import Vision from './view/SiteTop/Vision'
+import SiteTop from './view/SiteTop/SiteTop'
 import SXSW from './view/SXSW'
 
 const posts = [
