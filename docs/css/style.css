@@ -14,9 +14,14 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-size: 1.6rem;
   background: #172245;
   color: #FFF; }
+  @media screen and (max-width: 479px) {
+    body {
+      font-size: 1.5rem; } }
+  @media screen and (min-width: 480px) {
+    body {
+      font-size: 1.6rem; } }
   body a {
     color: #FFF;
     text-decoration: none; }
@@ -55,6 +60,9 @@ header.site-header {
       letter-spacing: 0.05rem; }
       header.site-header nav a + a {
         border-left: solid 0.1rem #ffa200; }
+        @media screen and (max-width: 479px) {
+          header.site-header nav a + a {
+            display: none; } }
 
 main {
   padding-top: 6rem; }
@@ -72,17 +80,32 @@ main {
     background-position: center;
     background-size: cover; }
   main section {
-    position: relative;
-    padding: 8rem 25%; }
+    position: relative; }
+    @media screen and (max-width: 479px) {
+      main section {
+        padding: 3rem 1rem; } }
+    @media screen and (min-width: 480px) and (max-width: 1279px) {
+      main section {
+        padding: 8rem 5% 8rem 25%; } }
+    @media screen and (min-width: 1280px) {
+      main section {
+        padding: 8rem 25%; } }
     main section + section {
       border-top: solid 0.1rem #203060; }
     main section h1 {
-      position: absolute;
-      left: 5%;
-      font-size: 2.4rem;
       font-weight: bold;
       text-transform: uppercase;
       color: #ffa200; }
+      @media screen and (max-width: 479px) {
+        main section h1 {
+          position: static;
+          padding: 0 0 2rem;
+          font-size: 1.6rem; } }
+      @media screen and (min-width: 480px) {
+        main section h1 {
+          position: absolute;
+          left: 5%;
+          font-size: 2.4rem; } }
     main section * + h1 {
       margin-top: 4rem; }
     main section h2 {
@@ -90,6 +113,12 @@ main {
       padding: 0 0 2rem;
       font-size: 3rem;
       font-weight: bold; }
+      @media screen and (max-width: 479px) {
+        main section h2 {
+          font-size: 1.7rem; } }
+      @media screen and (min-width: 480px) {
+        main section h2 {
+          font-size: 3rem; } }
     main section h3 {
       padding: 1rem 0 0.5rem; }
     main section * + h3 {
@@ -104,7 +133,7 @@ main {
       padding: 2rem 1.5rem;
       background: #ffa200;
       color: #FFF;
-      border-radius: 1rem; }
+      border-radius: 1.5rem; }
     main section ul {
       margin: 2rem 0;
       list-style: square; }
@@ -120,9 +149,15 @@ main {
       display: block;
       font-size: 1.4rem; }
   main section.team ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 4rem; }
+    display: grid; }
+    @media screen and (max-width: 479px) {
+      main section.team ul {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1rem; } }
+    @media screen and (min-width: 480px) {
+      main section.team ul {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 4rem; } }
     main section.team ul li {
       list-style: none;
       text-align: center; }
@@ -136,18 +171,25 @@ main {
     width: 100%;
     margin-bottom: 5rem;
     border-collapse: collapse; }
-    main section.company table tr:nth-child(odd) {
-      background: #203060; }
+    @media screen and (min-width: 480px) {
+      main section.company table tr:nth-child(odd) {
+        background: #203060; } }
     main section.company table tr > :first-child {
       border-radius: 0.5rem 0 0 0.5rem; }
     main section.company table tr > :last-child {
       border-radius: 0 0.5rem 0.5rem 0; }
     main section.company table tr th, main section.company table tr td {
-      padding: 1rem 2rem;
       font-weight: normal;
       text-align: left;
       vertical-align: top;
       line-height: 1.5; }
+      @media screen and (max-width: 479px) {
+        main section.company table tr th, main section.company table tr td {
+          display: block;
+          padding: 0.5rem 0; } }
+      @media screen and (min-width: 480px) {
+        main section.company table tr th, main section.company table tr td {
+          padding: 1rem 2rem; } }
   main section.company ul {
     padding: 0.5rem 0 0.5rem 2.5rem; }
   main section.company div {
@@ -159,9 +201,14 @@ main {
     main section.sponsors + section {
       border-top: solid 0.1rem #CCC; }
     main section.sponsors div {
-      width: 40%;
       background-size: contain;
       background-repeat: no-repeat; }
+      @media screen and (max-width: 479px) {
+        main section.sponsors div {
+          width: 80%; } }
+      @media screen and (min-width: 480px) {
+        main section.sponsors div {
+          width: 40%; } }
     main section.sponsors .space-access {
       padding-top: 14%;
       background-image: url("../images/sponsors/SpaceAccessLogo.jpg"); }
@@ -176,6 +223,9 @@ section.personal-sponsors li {
   display: inline-block;
   margin-right: 1.5rem;
   list-style: none; }
+  @media screen and (max-width: 479px) {
+    section.personal-sponsors li {
+      font-size: 1.2rem; } }
 
 footer.site-footer {
   padding: 3rem 5%;

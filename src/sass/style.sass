@@ -13,9 +13,14 @@ html
   font-size: 62.5%
 
 body
-  font-size: 1.6rem
   background: hsl(225, 50%, 18%)
   color: #FFF
+
+  @media screen and (max-width: 479px)
+    font-size: 1.5rem
+
+  @media screen and (min-width: 480px)
+    font-size: 1.6rem
 
   a
     color: #FFF
@@ -61,6 +66,9 @@ header.site-header
       & + a
         border-left: solid 0.1rem hsl(38, 100%, 50%)
 
+        @media screen and (max-width: 479px)
+          display: none
+
 main
   padding-top: 6rem
 
@@ -82,18 +90,33 @@ main
 
   section
     position: relative
-    padding: 8rem 25%
+
+    @media screen and (max-width: 479px)
+      padding: 3rem 1rem
+
+    @media screen and (min-width: 480px) and (max-width: 1279px)
+      padding: 8rem 5% 8rem 25%
+
+    @media screen and (min-width: 1280px)
+      padding: 8rem 25%
 
     & + section
       border-top: solid 0.1rem hsl(225, 50%, 25%)
 
     h1
-      position: absolute
-      left: 5%
-      font-size: 2.4rem
       font-weight: bold
       text-transform: uppercase
       color: hsl(38, 100%, 50%)
+
+      @media screen and (max-width: 479px)
+        position: static
+        padding: 0 0 2rem
+        font-size: 1.6rem
+
+      @media screen and (min-width: 480px)
+        position: absolute
+        left: 5%
+        font-size: 2.4rem
 
     * + h1
       margin-top: 4rem
@@ -103,6 +126,12 @@ main
       padding: 0 0 2rem
       font-size: 3rem
       font-weight: bold
+
+      @media screen and (max-width: 479px)
+        font-size: 1.7rem
+
+      @media screen and (min-width: 480px)
+        font-size: 3rem
 
     h3
       padding: 1rem 0 0.5rem
@@ -122,7 +151,7 @@ main
       padding: 2rem 1.5rem
       background: hsl(38, 100%, 50%)
       color: #FFF
-      border-radius: 1rem
+      border-radius: 1.5rem
 
     ul
       margin: 2rem 0
@@ -148,8 +177,14 @@ main
 
     ul
       display: grid
-      grid-template-columns: 1fr 1fr 1fr 1fr
-      grid-column-gap: 4rem
+
+      @media screen and (max-width: 479px)
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 1rem
+
+      @media screen and (min-width: 480px)
+        grid-template-columns: 1fr 1fr 1fr 1fr
+        grid-column-gap: 4rem
 
       li
         list-style: none
@@ -171,8 +206,9 @@ main
 
       tr
 
-        &:nth-child(odd)
-          background: hsl(225, 50%, 25%)
+        @media screen and (min-width: 480px)
+          &:nth-child(odd)
+            background: hsl(225, 50%, 25%)
         
         & > :first-child
           border-radius: 0.5rem 0 0 0.5rem
@@ -181,11 +217,17 @@ main
           border-radius: 0 0.5rem 0.5rem 0
 
         th, td
-          padding: 1rem 2rem
           font-weight: normal
           text-align: left
           vertical-align: top
           line-height: 1.5
+
+          @media screen and (max-width: 479px)
+            display: block
+            padding: 0.5rem 0
+            
+          @media screen and (min-width: 480px)
+            padding: 1rem 2rem
 
     ul
       padding: 0.5rem 0 0.5rem 2.5rem
@@ -202,9 +244,14 @@ main
       border-top: solid 0.1rem #CCC
 
     div
-      width: 40%
       background-size: contain
       background-repeat: no-repeat
+
+      @media screen and (max-width: 479px)
+        width: 80%
+        
+      @media screen and (min-width: 480px)
+        width: 40%
 
     .space-access
       padding-top: 14%
@@ -223,6 +270,9 @@ section.personal-sponsors
     display: inline-block
     margin-right: 1.5rem
     list-style: none
+
+    @media screen and (max-width: 479px)
+      font-size: 1.2rem
 
 footer.site-footer
   padding: 3rem 5%
