@@ -8,7 +8,7 @@ export default () => state => (
     </h1>
     <nav>
       <Link to="/">News</Link>
-      <a href="https://twitter.com/teamoutsense">Twitter</a>
+      <a href="https://twitter.com/teamoutsense" target="_blank">Twitter</a>
       <a href="https://www.facebook.com/teamOUTSENSE/" target="_blank">Facebook</a>
     </nav>
   </header>
