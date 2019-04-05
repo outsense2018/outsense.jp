@@ -5,16 +5,16 @@ const Greeting = () => (
     <h1>News</h1>
     <h2>『ミライの月面基地』をSXSWに出展しました</h2>
     <p>
-      この度はSouth by South westにて展示が終了しましたので、ご報告差し上げます。
+      この度はSouth by Southwest(以下「SXSW」)にて展示が終了しましたので、ご報告差し上げます。
       また、クラウドファンディングにて、たくさんのご支援、ご声援、誠にありがとうございました。
     </p>
     <p>
-    世界最大級のスタートアップの祭典「SXSW」では、宇宙に興味がある方、優れた技術とビジョンを持つスタートアップを探している方などいろいろなバックグランド、国の方など多くの方に、弊社のブースにご興味を持っていただきました。
-    クラウドファンディングのご支援により、2m×2m級のプロトタイプの開発・製造を行い、展開・収納実験では多くの方が訪れ、賑わいを見せました。
-    「地上でも被災地で使えるんじゃないか」「砂漠など極限環境の住居として売れるのではないか」など、色々なアドバイスや、コンペティションやハッカソンなど、イベントの情報を名刺と一緒にくださる方もおり、ビジネスチャンスの機会を得られました。
+      世界最大級のスタートアップの祭典「SXSW」では、宇宙に興味がある方、優れた技術とビジョンを持つスタートアップ企業を探している方など、様々な企業、国の方に、弊社のブースにご来場いただけました。
+      皆様のクラウドファンディングのご支援により、2m×2m級のプロトタイプの開発・製造を行うことができ、プロトタイプを用いた展開・収納実験では、訪れた方の多くが動画や写真の撮影され、成功した際には大きな歓声が生まれるなど、大変な賑わいを見せました。
+      また「宇宙だけでなく被災地での仮設住居として使えるのでは」「砂漠など極限環境の住居として売れるのではないか」など、様々なご意見や、コンペティションやハッカソン等のイベントの情報を提供くださる方もおり、多種多様なビジネスチャンスの機会を得られました。
     </p>
     <p>
-      今後も皆様に良いお知らせができるようOUTSENSE一同気を引き締めて努めてまいりますので、引き続き、応援のほどよろしくお願いいたします。
+      今後も皆様に良いお知らせができますようOUTSENSE一同気を引き締めて努めてまいりますので、引き続き、応援のほどよろしくお願いいたします。
     </p>
   </section>
 )
@@ -28,7 +28,8 @@ const Gold = () => (
     Space Systems Development Corporation contributes to software development for space systems including operation planning and orbit calculation of satellite ground operation systems, operation support for experimental activities on the Japanese Experiment Module (JEM) of the International Space Station (ISS) and research cooperation for development of Environmental Control and Life Support System (ECLSS) equipment.
     </p>
     <a href="http://www.space-sd.co.jp" target="_blank">
-      Website
+      SSD HP|宇宙システム開発株式会社<br />
+      http://www.space-sd.co.jp
     </a>
   </section>
 )
@@ -39,7 +40,8 @@ const Silver = () => (
     <div class="yspace"></div>
     <h3>合同会社Yspace 様</h3>
     <a href="http://yspace-llc.com" target="_blank">
-      Website
+      Yspace – Connect our space. Connect our hearts<br />
+      http://yspace-llc.com
     </a>
   </section>
 )

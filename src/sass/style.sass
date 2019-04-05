@@ -30,11 +30,19 @@ header.site-header
   position: fixed
   z-index: 1
   display: grid
-  grid-template-columns: 5% 17rem auto 5%
   width: 100%
   padding: 1rem 0 1rem
   background: hsl(225, 50%, 18%)
   border-bottom: solid 0.1rem hsl(225, 50%, 25%)
+
+  @media screen and (max-width: 479px)
+    grid-template-columns: 5% 17rem auto 5%
+
+  @media screen and (min-width: 480px) and (max-width: 1279px)
+    grid-template-columns: 2rem 17rem auto 2rem
+
+  @media screen and (min-width: 1280px)
+    grid-template-columns: 5% 17rem auto 5%
 
   h1
     grid-row: 1
@@ -95,7 +103,7 @@ main
       padding: 3rem 1rem
 
     @media screen and (min-width: 480px) and (max-width: 1279px)
-      padding: 8rem 5% 8rem 25%
+      padding: 8rem 15%
 
     @media screen and (min-width: 1280px)
       padding: 8rem 25%
@@ -109,11 +117,14 @@ main
       color: hsl(38, 100%, 50%)
 
       @media screen and (max-width: 479px)
-        position: static
         padding: 0 0 2rem
         font-size: 1.6rem
 
-      @media screen and (min-width: 480px)
+      @media screen and (min-width: 480px) and (max-width: 1279px)
+        padding: 0 0 2rem
+        font-size: 2.4rem
+
+      @media screen and (min-width: 1280px)
         position: absolute
         left: 5%
         font-size: 2.4rem
@@ -146,12 +157,12 @@ main
         margin-top: 2rem
 
     & > a
-      display: block
+      display: inline-block
       margin: 2rem 0
-      padding: 2rem 1.5rem
+      padding: 1.5rem 1.5rem
       background: hsl(38, 100%, 50%)
       color: #FFF
-      border-radius: 1.5rem
+      border-radius: 1rem
 
     ul
       margin: 2rem 0
@@ -243,6 +254,9 @@ main
     & + section
       border-top: solid 0.1rem #CCC
 
+    & > a
+      background: hsl(225, 50%, 18%)
+
     div
       background-size: contain
       background-repeat: no-repeat
@@ -275,8 +289,16 @@ section.personal-sponsors
       font-size: 1.2rem
 
 footer.site-footer
-  padding: 3rem 5%
   border-top: solid 0.1rem hsl(225, 50%, 25%)
+
+  @media screen and (max-width: 479px)
+    padding: 3rem 5%
+
+  @media screen and (min-width: 480px) and (max-width: 1279px)
+    padding: 3rem 15%
+
+  @media screen and (min-width: 1280px)
+    padding: 3rem 5%
 
   .copyright
     text-align: right

@@ -30,11 +30,19 @@ header.site-header {
   position: fixed;
   z-index: 1;
   display: grid;
-  grid-template-columns: 5% 17rem auto 5%;
   width: 100%;
   padding: 1rem 0 1rem;
   background: #172245;
   border-bottom: solid 0.1rem #203060; }
+  @media screen and (max-width: 479px) {
+    header.site-header {
+      grid-template-columns: 5% 17rem auto 5%; } }
+  @media screen and (min-width: 480px) and (max-width: 1279px) {
+    header.site-header {
+      grid-template-columns: 2rem 17rem auto 2rem; } }
+  @media screen and (min-width: 1280px) {
+    header.site-header {
+      grid-template-columns: 5% 17rem auto 5%; } }
   header.site-header h1 {
     grid-row: 1;
     grid-column: 2; }
@@ -86,7 +94,7 @@ main {
         padding: 3rem 1rem; } }
     @media screen and (min-width: 480px) and (max-width: 1279px) {
       main section {
-        padding: 8rem 5% 8rem 25%; } }
+        padding: 8rem 15%; } }
     @media screen and (min-width: 1280px) {
       main section {
         padding: 8rem 25%; } }
@@ -98,10 +106,13 @@ main {
       color: #ffa200; }
       @media screen and (max-width: 479px) {
         main section h1 {
-          position: static;
           padding: 0 0 2rem;
           font-size: 1.6rem; } }
-      @media screen and (min-width: 480px) {
+      @media screen and (min-width: 480px) and (max-width: 1279px) {
+        main section h1 {
+          padding: 0 0 2rem;
+          font-size: 2.4rem; } }
+      @media screen and (min-width: 1280px) {
         main section h1 {
           position: absolute;
           left: 5%;
@@ -128,12 +139,12 @@ main {
       main section p + p {
         margin-top: 2rem; }
     main section > a {
-      display: block;
+      display: inline-block;
       margin: 2rem 0;
-      padding: 2rem 1.5rem;
+      padding: 1.5rem 1.5rem;
       background: #ffa200;
       color: #FFF;
-      border-radius: 1.5rem; }
+      border-radius: 1rem; }
     main section ul {
       margin: 2rem 0;
       list-style: square; }
@@ -200,6 +211,8 @@ main {
     color: #172245; }
     main section.sponsors + section {
       border-top: solid 0.1rem #CCC; }
+    main section.sponsors > a {
+      background: #172245; }
     main section.sponsors div {
       background-size: contain;
       background-repeat: no-repeat; }
@@ -228,8 +241,16 @@ section.personal-sponsors li {
       font-size: 1.2rem; } }
 
 footer.site-footer {
-  padding: 3rem 5%;
   border-top: solid 0.1rem #203060; }
+  @media screen and (max-width: 479px) {
+    footer.site-footer {
+      padding: 3rem 5%; } }
+  @media screen and (min-width: 480px) and (max-width: 1279px) {
+    footer.site-footer {
+      padding: 3rem 15%; } }
+  @media screen and (min-width: 1280px) {
+    footer.site-footer {
+      padding: 3rem 5%; } }
   footer.site-footer .copyright {
     text-align: right;
     font-size: 1.4rem; }
