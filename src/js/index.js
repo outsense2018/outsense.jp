@@ -16,7 +16,7 @@ const posts = [
 
 const state = {
   posts: posts,
-  showNews: true,
+  showNews: false,
   location: location.state
 }
 

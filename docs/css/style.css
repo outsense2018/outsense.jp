@@ -217,8 +217,7 @@ main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 4rem; } }
     main section.team ul li {
-      list-style: none;
-      text-align: center; }
+      list-style: none; }
       main section.team ul li div {
         width: 100%;
         padding-top: 100%;
