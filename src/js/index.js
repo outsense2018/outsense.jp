@@ -3,6 +3,7 @@ import { Link, Route, location } from '@hyperapp/router'
 
 import SiteHeader from './view/SiteHeader'
 import SiteFooter from './view/SiteFooter'
+import News from './view/News'
 
 import SiteTop from './view/SiteTop/SiteTop'
 import SXSW from './view/SXSW'
@@ -15,16 +16,19 @@ const posts = [
 
 const state = {
   posts: posts,
+  showNews: true,
   location: location.state
 }
 
 const actions = {
-  location: location.actions
+  location: location.actions,
+  toggleNews: () => state => ({ showNews: !state.showNews })
 }
 
-const view = state => (
+const view = (state, actions) => (
   <div>
-    <SiteHeader />
+    <SiteHeader actions={ actions } />
+    <News />
 
     <Route path="/" render={ SiteTop } />
     <Route path="/sxsw" render={ SXSW } />
