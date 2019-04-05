@@ -7,7 +7,6 @@ body, header, footer, ul, li
 h1, h2, h3, h4, p
   margin: 0
   padding: 0
-  font-weight: normal
 
 html
   font-size: 62.5%
@@ -159,10 +158,17 @@ main
     & > a
       display: inline-block
       margin: 2rem 0
-      padding: 1.5rem 1.5rem
+      padding: 1rem 1.5rem
+      font-size: 1.3rem
+      line-height: 1.6
       background: hsl(38, 100%, 50%)
       color: #FFF
       border-radius: 1rem
+
+      h3
+        padding: 0
+        font-size: 1.7rem
+        font-weight: 600
 
     ul
       margin: 2rem 0
@@ -254,10 +260,12 @@ main
     & + section
       border-top: solid 0.1rem #CCC
 
-    & > a
-      background: hsl(225, 50%, 18%)
+    h2
+      font-size: 2.4rem
+      padding-bottom: 3rem
 
     div
+      margin: 3rem 0
       background-size: contain
       background-repeat: no-repeat
 
