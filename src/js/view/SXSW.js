@@ -59,11 +59,15 @@ const Bronze = () => (
 const Personal = () => (
   <section className="personal-sponsors">
     <h1>Personal</h1>
-    <h3>片山勇と雅美</h3>
-    <p>I and my family get interested in space recently! I am happy that I can support a nice project.</p>
+    <p>
+      片山勇と雅美<br />
+      I and my family get interested in space recently! I am happy that I can support a nice project.
+    </p>
 
-    <h3>山口博則 / 陽</h3>
-    <p>Life isn’t worth living, unless it is lived for someone else.</p>
+    <p>
+      山口博則 / 陽<br />
+      Life isn’t worth living, unless it is lived for someone else.
+    </p>
 
     <ul>
       <li>H.TOSHI</li>
