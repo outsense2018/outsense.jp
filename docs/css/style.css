@@ -224,6 +224,14 @@ main {
         border-radius: 0.5rem;
         background-position: center;
         background-size: cover; }
+        main section.team ul li div.yozan-takahashi {
+          background-image: url(../images/team/YozanTakahashi.jpg); }
+        main section.team ul li div.akio-ito {
+          background-image: url(../images/team/AkioIto.jpg); }
+        main section.team ul li div.shuga-horii {
+          background-image: url(../images/team/ShugaHorii.jpg); }
+        main section.team ul li div.shintaro-ishimatsu {
+          background-image: url(../images/team/ShintaroIshimatsu.jpg); }
   main section.company table {
     width: 100%;
     margin-bottom: 5rem;
