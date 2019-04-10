@@ -9,13 +9,13 @@ export default () => (state, actions) => (
       <ul>
         <li onclick={ actions.toggleNews }>
           <Link to="/sxsw">
-            <span>2019.03.03</span>
+            <span>2019.03.15</span>
             『ミライの月面基地』をSXSWに出展しました
           </Link>
         </li>
 
         <li>
-          <a href="https://camp-fire.jp/projects/view/119111" target="_blank">
+          <a href="https://camp-fire.jp/projects/119111/activities/74556#main" target="_blank">
             <span>2019.02.28</span>
             クラウドファンディングを達成しました
           </a>
