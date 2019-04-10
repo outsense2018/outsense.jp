@@ -42,43 +42,5 @@ export default () => state => (
       </tr>
     </table>
 
-    <div
-      oncreate={
-        (element) => {
-          var MyLatLng = new google.maps.LatLng(35.684776, 139.71615);
-
-          var Options = {
-            center: MyLatLng, //地図の中心座標
-            zoom: 15, //地図の縮尺値
-            mapTypeId: 'roadmap', //地図の種類
-            styles: [
-              {
-                featureType: 'all',
-                elementType: 'all',
-                stylers: [
-                  { saturation : -100 },
-                ],
-              },
-              {
-                featureType: 'poi',
-                elementType: 'labels.icon',
-                stylers: [
-                  { visibility: 'off' },
-                ],
-              },
-            ]
-          };
-
-          var map = new google.maps.Map(element, Options);
-
-          var markerOptions = {
-            map: map,
-            position: MyLatLng
-          }
-          var marker = new google.maps.Marker(markerOptions);
-        }
-      }
-    ></div>
-
   </section>
 )
