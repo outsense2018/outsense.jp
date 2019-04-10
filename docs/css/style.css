@@ -276,18 +276,18 @@ main {
       background-repeat: no-repeat; }
       @media screen and (max-width: 479px) {
         main section.sponsors div {
-          width: 80%; } }
+          width: 30rem; } }
       @media screen and (min-width: 480px) {
         main section.sponsors div {
-          width: 40%; } }
+          width: 35rem; } }
     main section.sponsors .space-access {
-      padding-top: 14%;
+      padding-top: 15rem;
       background-image: url("../images/sponsors/SpaceAccessLogo.jpg"); }
     main section.sponsors .ssd {
-      padding-top: 20%;
+      padding-top: 15rem;
       background-image: url("../images/sponsors/SSDLogo.jpg"); }
     main section.sponsors .yspace {
-      padding-top: 13%;
+      padding-top: 8rem;
       background-image: url("../images/sponsors/YspaceLogo.png"); }
 
 section.personal-sponsors li {

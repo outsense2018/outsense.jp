@@ -21,8 +21,10 @@ const Greeting = () => (
 
 const Gold = () => (
   <section className="sponsors">
-    <h1>Gold</h1>
-    <h2>宇宙システム開発株式会社 様</h2>
+    <h1>Sponsors</h1>
+
+    <h2>ゴールドスポンサー</h2>
+    <h3>宇宙システム開発株式会社 様</h3>
     <div class="ssd"></div>
     <p>
     Space Systems Development Corporation contributes to software development for space systems including operation planning and orbit calculation of satellite ground operation systems, operation support for experimental activities on the Japanese Experiment Module (JEM) of the International Space Station (ISS) and research cooperation for development of Environmental Control and Life Support System (ECLSS) equipment.
@@ -36,8 +38,8 @@ const Gold = () => (
 
 const Silver = () => (
   <section className="sponsors">
-    <h1>Silver</h1>
-    <h2>合同会社Yspace 様</h2>
+    <h2>シルバースポンサー</h2>
+    <h3>合同会社Yspace 様</h3>
     <div class="yspace"></div>
     <a href="http://yspace-llc.com" target="_blank">
       <h3>Yspace – Connect our space. Connect our hearts</h3>
@@ -48,8 +50,8 @@ const Silver = () => (
 
 const Bronze = () => (
   <section className="sponsors">
-    <h1>Bronze</h1>
-    <h2>スペースアクセス株式会社 様</h2>
+    <h2>ブロンズスポンサー</h2>
+    <h3>スペースアクセス株式会社 様</h3>
     <div class="space-access"></div>
   </section>
 )
