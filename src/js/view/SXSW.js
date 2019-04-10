@@ -91,7 +91,8 @@ const Personal = () => (
       <li>SOKEN Y&N</li>
       <li>AKIUMI OKABE</li>
       <li>星川 力</li>
-      <li>孫泰蔵横河鉄彌</li>
+      <li>孫泰蔵</li>
+      <li>横河鉄彌</li>
       <li>SAIBI HS SST</li>
       <li>H.Takayama</li>
       <li>kyohei tani</li>
