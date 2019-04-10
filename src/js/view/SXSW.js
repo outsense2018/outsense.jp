@@ -16,6 +16,12 @@ const Greeting = () => (
     <p>
       今後も皆様に良いお知らせができますようOUTSENSE一同気を引き締めて努めてまいりますので、引き続き、応援のほどよろしくお願いいたします。
     </p>
+
+    <div className="parallel">
+      <img src="./images/SXSW/01.jpg" />
+      <img src="./images/SXSW/02.jpg" />
+    </div>
+
   </section>
 )
 
