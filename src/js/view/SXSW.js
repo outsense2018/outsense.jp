@@ -18,10 +18,18 @@ const Greeting = () => (
     </p>
 
     <div className="parallel">
-      <img src="./images/SXSW/01.jpg" />
-      <img src="./images/SXSW/02.jpg" />
+      <img src="https://outsense.github.io/outsense.com/images/SXSW/01.jpg" />
+      <img src="https://outsense.github.io/outsense.com/images/SXSW/02.jpg" />
     </div>
 
+  </section>
+)
+
+const Movie = () => (
+  <section>
+    <h1>Movie</h1>
+    <video src="https://outsense.github.io/outsense.com/assets/SXSW/demo.mp4" controls muted></video>
+    <p>SXSWでの実演の様子</p>
   </section>
 )
 
@@ -171,8 +179,9 @@ const Personal = () => (
 
 export default () => state => (
   <main>
-    <div className="cover"></div>
+    <video className="cover" src="https://outsense.github.io/outsense.com/assets/SXSW/demo.mp4" autoplay loop muted></video>
     <Greeting />
+    <Movie />
     <Gold />
     <Silver />
     <Bronze />

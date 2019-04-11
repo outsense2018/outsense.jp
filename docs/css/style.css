@@ -128,6 +128,11 @@ main {
     background-image: url("../images/cover.jpg");
     background-position: center;
     background-size: cover; }
+  main video.cover {
+    display: block;
+    width: 50%;
+    padding: 0 25%;
+    background: #000; }
   main section {
     position: relative; }
     @media screen and (max-width: 479px) {
@@ -198,6 +203,8 @@ main {
       main section ul li {
         line-height: 2.6rem; }
     main section img {
+      width: 100%; }
+    main section video {
       width: 100%; }
     main section div.parallel {
       margin: 5rem 0;
