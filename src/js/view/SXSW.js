@@ -18,8 +18,8 @@ const Greeting = () => (
     </p>
 
     <div className="parallel">
-      <img src="https://outsense.github.io/outsense.com/images/SXSW/01.jpg" />
-      <img src="https://outsense.github.io/outsense.com/images/SXSW/02.jpg" />
+      <img src="./images/SXSW/01.jpg" />
+      <img src="./images/SXSW/02.jpg" />
     </div>
 
   </section>
@@ -28,7 +28,7 @@ const Greeting = () => (
 const Movie = () => (
   <section>
     <h1>Movie</h1>
-    <video src="https://outsense.github.io/outsense.com/assets/SXSW/demo.mp4" controls muted></video>
+    <video src="./assets/SXSW/demo.mp4" controls muted></video>
     <p>SXSWでの実演の様子</p>
   </section>
 )
@@ -87,7 +87,7 @@ const Personal = () => (
 
 export default () => state => (
   <main>
-    <video className="cover" src="https://outsense.github.io/outsense.com/assets/SXSW/demo.mp4" autoplay loop muted></video>
+    <video className="cover" src="./assets/SXSW/demo.mp4" autoplay loop muted></video>
     <Greeting />
     <Movie />
     <Gold />
