@@ -26,10 +26,11 @@ const Greeting = () => (
 )
 
 const Movie = () => (
-  <section>
+  <section class="movie">
     <h1>Movie</h1>
-    <video src="./assets/SXSW/demo.mp4" controls muted></video>
-    <p>SXSWでの実演の様子</p>
+    <div>
+      <iframe src="https://www.youtube.com/embed/R2440EWIa_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </section>
 )
 
