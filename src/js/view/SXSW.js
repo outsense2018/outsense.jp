@@ -70,9 +70,9 @@ const Bronze = () => (
   </section>
 )
 
-const Personal = () => (
-  <section className="personal-sponsors">
-    <h1>Personal</h1>
+const SpecialThanks = () => (
+  <section className="sponsors">
+    <h2>Special Thanks</h2>
     <p>
       片山勇と雅美<br />
       I and my family get interested in space recently! I am happy that I can support a nice project.
@@ -93,6 +93,6 @@ export default () => state => (
     <Gold />
     <Silver />
     <Bronze />
-    <Personal />
+    <SpecialThanks />
   </main>
 )
