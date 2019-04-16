@@ -74,15 +74,21 @@ const Bronze = () => (
 const SpecialThanks = () => (
   <section className="sponsors">
     <h2>Special Thanks</h2>
+    <p>クラウドファンディングへのご支援ありがとうございました！</p>
+
+    <h3>片山勇 / 雅美</h3>
     <p>
-      片山勇と雅美<br />
       I and my family get interested in space recently! I am happy that I can support a nice project.
     </p>
 
+    <h3>山口博則 / 陽</h3>
     <p>
-      山口博則 / 陽<br />
       Life isn’t worth living, unless it is lived for someone else.
     </p>
+
+    <h3>沖村 明</h3>
+
+    <h3>片山 郁海 / 明子</h3>
   </section>
 )
 
