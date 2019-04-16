@@ -10,7 +10,7 @@ export default () => state => (
   <main>
     <nav className="news">
       <Link to="/sxsw">
-        <span>2019.03.03</span>
+        <span>2019.03.15</span>
         『ミライの月面基地』をSXSWに出展しました
       </Link>
     </nav>
