@@ -37,5 +37,9 @@ export default () => state => (
         </h3>
       </li>
     </ul>
+
+    <div>
+      <iframe src="https://www.youtube.com/embed/XBXnyLqSkXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </section>
 )
