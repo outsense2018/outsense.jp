@@ -4,6 +4,10 @@ export default () => state => (
   <section className="company">
     <h1>Company</h1>
 
+    <div>
+      <iframe src="https://www.youtube.com/embed/XBXnyLqSkXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <table>
       <tr>
         <th>会社名</th>
@@ -45,9 +49,5 @@ export default () => state => (
         </td>
       </tr>
     </table>
-
-    <div>
-      <iframe src="https://www.youtube.com/embed/XBXnyLqSkXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
   </section>
 )
