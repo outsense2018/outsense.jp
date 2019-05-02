@@ -244,18 +244,6 @@ main {
           background-image: url(../images/team/ShugaHorii.jpg); }
         main section.team ul li div.shintaro-ishimatsu {
           background-image: url(../images/team/ShintaroIshimatsu.jpg); }
-  main section.team > div {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    margin-top: 8rem;
-    overflow: hidden; }
-    main section.team > div iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%; }
   main section.company a {
     color: #ffa200; }
   main section.company table {
@@ -286,6 +274,18 @@ main {
   main section.company div {
     width: 100%;
     height: 40rem; }
+  main section.company > div {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-top: 8rem;
+    overflow: hidden; }
+    main section.company > div iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
   main section.movie > div {
     position: relative;
     padding-bottom: 62%;
