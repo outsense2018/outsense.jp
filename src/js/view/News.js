@@ -7,6 +7,13 @@ export default () => (state, actions) => (
       <input id="latest_news" type="checkbox" checked="" />
       <h1>News</h1>
       <ul>
+        <li>
+          <a href="https://www.pref.ibaraki.jp/kikaku/kagaku/kokusai/documents/documents/koufu0607.pdf" target="_blank">
+            <span>2019.06.05</span>
+            2019年度「いばらき宇宙ビジネス支援事業」に採択されました！
+          </a>
+        </li>
+
         <li onclick={ actions.toggleNews }>
           <Link to="/sxsw">
             <span>2019.03.15</span>
