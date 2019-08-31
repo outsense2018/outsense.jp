@@ -6,7 +6,7 @@
     "copy:images": "cp -r ./src/images ./docs",
     "copy": "npm-run-all -p copy:*",
     "watch:js": "webpack",
-    "watch:sass": "node-sass --include-path sass ./src/sass/style.sass ./docs/css/style.css --watch --quiet",
+    "watch:sass": "sass --watch src/sass:docs/css",
     "watch:server": "browser-sync start --server ./docs --files \"**/*\"",
     "watch": "npm-run-all -p watch:*",
     "start": "npm-run-all -s echo copy watch"
@@ -23,8 +23,8 @@
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "browser-sync": "^2.26.3",
-    "node-sass": "^4.11.0",
     "npm-run-all": "^4.1.5",
+    "sass": "^1.22.10",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.0"
   }
