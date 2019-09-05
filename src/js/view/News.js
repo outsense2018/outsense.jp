@@ -7,6 +7,14 @@ export default () => (state, actions) => (
       <input id="latest_news" type="checkbox" checked="" />
       <h1>News</h1>
       <ul>
+
+        <li>
+          <a href="https://lne.st/2019/08/20/ota-city2019/?fbclid=IwAR2isJFtrWT0uIMKyNFJhoF38NgV9bXbtiIib2vAnapz-9eLut2UBUULceA" target="_blank">
+            <span>2019.08.20</span>
+            大田区の2019年度「スタートアップとものづくり企業の連携創出実証実験事業」に採択されました！
+          </a>
+        </li>
+
         <li>
           <a href="https://www.pref.ibaraki.jp/kikaku/kagaku/kokusai/documents/documents/koufu0607.pdf" target="_blank">
             <span>2019.06.05</span>
