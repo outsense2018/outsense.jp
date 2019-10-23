@@ -329,6 +329,27 @@ main section.team ul li div.shuga-horii {
 main section.team ul li div.shintaro-ishimatsu {
   background-image: url(../images/team/ShintaroIshimatsu.jpg);
 }
+main section.technology div {
+  width: 100%;
+  height: 40rem;
+}
+main section.technology > div {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-bottom: 8rem;
+  overflow: hidden;
+}
+main section.technology > div iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+main section.concept h2 {
+  line-height: 1.3;
+}
 main section.company a {
   color: #ffa200;
 }
