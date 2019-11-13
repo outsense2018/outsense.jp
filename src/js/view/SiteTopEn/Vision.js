@@ -4,24 +4,21 @@ export default () => state => (
   <section className="vision">
     <h1>Vision</h1>
     <h2>
-      あなたをどこにでも住めるようにする。<br />
-      そう、それが宇宙でもね。
+      We will make you live in anywhere,<br />
+      even if,there is in SPACE.
     </h2>
     <p>
-      私たちは宇宙建築というマニアックな学術分野に興味を持った学生の集まりから始まりました。
-      宇宙に興味を持ったきっかけは、純粋な憧れ、特殊なフィールドとしての興味、ガンダム等の作品であったりと様々。
-      ですが、強く共通していたのは人の未来を変える可能性を宇宙に感じていたことでした。
+      Our name, OUTSENSE, comes from “We going OUT from boring common SENSE”.
+      We think space has ultimate power to change our perspective dramatically,
+      and want to make people feel more bright.
     </p>
     <p>
-    私たちはその想いの根源がどこにあるのかを語り合い、<br />
-    「宇宙には現在の常識を抜け出す力がある」という結論を得ました。
+    To live outside of the earth, human being will meet unexpected world,<br />
+    experience, feeling, culture, ability... completely new thing.
     </p>
     <p>
-    いま、宇宙開発の潮流が目まぐるしく変わる中で、人類は大きな分岐点に立っています。
-    </p>
-    <p>
-    「地球を抜け出し宇宙に進むことで、人類の可能性を広げたい。」<br />
-    この想いを人生をかけてでも実現したいという「変わり者たち」によって、OUTSENSEが作られました。
+    For these future, we promote space development by providing space residence.
     </p>
   </section>
 )
+
