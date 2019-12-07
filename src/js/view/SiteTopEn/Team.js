@@ -1,7 +1,7 @@
 import { h } from 'hyperapp' // @jsx h
 
 export default () => state => (
-  <section className="team">
+  <section className="teamEn">
     <h1>Teams</h1>
     <h2>Members</h2>
     <ul>
