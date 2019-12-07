@@ -341,8 +341,11 @@ main section.teamEn h1 {
   margin-bottom: 5rem;
 }
 main section.teamEn h2 {
-  margin-left: 10rem;
   margin-top: 5rem;
+  margin-left: -5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffa200;
 }
 main section.teamEn h3 {
   font-weight: 400;
