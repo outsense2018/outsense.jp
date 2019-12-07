@@ -4,7 +4,7 @@ export default () => state => (
   <section className="technologyEn">
     <h1>Technology</h1>
 
-    <div>
+    <div className="movie">
       <iframe
         src="https://www.youtube.com/embed/R2440EWIa_o"
         frameborder="0"
