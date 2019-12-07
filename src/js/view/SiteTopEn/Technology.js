@@ -1,10 +1,10 @@
 import { h } from "hyperapp"; // @jsx h
 
 export default () => state => (
-  <section className="technology">
+  <section className="technologyEn">
     <h1>Technology</h1>
 
-    <div>
+    <div className="movie">
       <iframe
         src="https://www.youtube.com/embed/R2440EWIa_o"
         frameborder="0"
@@ -29,5 +29,28 @@ export default () => state => (
       the process, we are also considereing creating the origami industry on the
       Earth.
     </p>
+    <ul>
+      <li>
+        <div className="sogameori"></div>
+        <h3>
+          <span>"Sogame-ori"</span><br /><br />
+          An origami pattern to fold a cylindrical object
+        </h3>
+      </li>
+      <li>
+        <div className="ishimatuori"></div>
+        <h3>
+          <span>"Ishimatsu-ori"</span><br /><br />
+          3D expandable Origami structure considering its thickness
+        </h3>
+      </li>
+      <li>
+        <div className="software"></div>
+        <h3>
+          <span>Origami Software</span><br /><br />
+          Optimal folding algorithm with original software
+        </h3>
+      </li>
+    </ul>
   </section>
 );
