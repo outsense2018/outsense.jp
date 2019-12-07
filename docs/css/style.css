@@ -412,6 +412,40 @@ main section.technology > div iframe {
   width: 100%;
   height: 100%;
 }
+main section.technologyEn {
+  background: white;
+  color: #203060;
+}
+main section.technologyEn h1 {
+  margin-bottom: 5rem;
+}
+main section.technologyEn div {
+  width: 100%;
+  height: 40rem;
+}
+main section.technologyEn > div {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-bottom: 8rem;
+  overflow: hidden;
+}
+main section.technologyEn > div iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+main section.technologyEn.sogameori {
+  background-image: url(../images/team/sogameori.jpg);
+}
+main section.technologyEn.ishimatuori {
+  background-image: url(../images/team/ishimatuori.jpg);
+}
+main section.technologyEn.software {
+  background-image: url(../images/team/software.jpg);
+}
 main section.concept h2 {
   line-height: 1.3;
 }
