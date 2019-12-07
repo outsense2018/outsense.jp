@@ -1,7 +1,7 @@
 import { h } from 'hyperapp' // @jsx h
 
 export default () => state => (
-  <section className="vision">
+  <section className="visionEn">
     <h1>Vision</h1>
     <h2>
       We will make you live in anywhere,<br />
