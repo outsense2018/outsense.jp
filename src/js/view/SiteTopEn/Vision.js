@@ -8,7 +8,7 @@ export default () => state => (
       even if,there is in SPACE.
     </h2>
     <p>
-      Our name, OUTSENSE, comes from “We going OUT from boring common SENSE”.
+      Our name, OUTSENSE, comes from "We getting OUT from boring common SENSE".
       We think space has ultimate power to change our perspective dramatically,
       and want to make people feel more bright.
     </p>
