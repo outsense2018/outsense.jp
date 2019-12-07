@@ -393,15 +393,36 @@ main
         left: 0
         width: 100%
         height: 100%
+    
+    ul
+      display: grid
 
-    div.sogameori
-      background-image: url(../images/team/sogameori.jpg)
+      @media screen and (max-width: 479px)
+        grid-template-columns: 1fr 1fr
+        grid-column-gap: 1rem
 
-    div.ishimatuori
-      background-image: url(../images/team/ishimatuori.jpg)
+      @media screen and (min-width: 480px)
+        grid-template-columns: 1fr 1fr 1fr 1fr
+        grid-column-gap: 4rem
 
-    div.software
-      background-image: url(../images/team/software.jpg)     
+      li
+        list-style: none
+
+        div
+          width: 100%
+          padding-top: 100%
+          border-radius: 0.5rem
+          background-position: center
+          background-size: cover
+
+          &.sogameori
+            background-image: url(../images/technology/sogameori.jpg)
+
+          &.ishimatuori
+            background-image: url(../images/technology/ishimatuori.jpg)
+
+          &.software
+            background-image: url(../images/technology/software.jpg)     
 
   section.concept
     h2
