@@ -33,21 +33,21 @@ export default () => state => (
       <li>
         <div className="sogameori"></div>
         <h3>
-          <span>"Sogame-ori"</span><br />
+          <span>"Sogame-ori"</span><br /><br />
           An origami pattern to fold a cylindrical object
         </h3>
       </li>
       <li>
         <div className="ishimatuori"></div>
         <h3>
-          <span>"Ishimatsu-ori"</span><br />
+          <span>"Ishimatsu-ori"</span><br /><br />
           3D expandable Origami structure considering its thickness
         </h3>
       </li>
       <li>
         <div className="software"></div>
         <h3>
-          <span>Origami Software</span><br />
+          <span>Origami Software</span><br /><br />
           Optimal folding algorithm with original software
         </h3>
       </li>

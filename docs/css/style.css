@@ -444,12 +444,13 @@ main section.technologyEn ul {
 }
 @media screen and (min-width: 480px) {
   main section.technologyEn ul {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3rem;
   }
 }
 main section.technologyEn ul li {
   list-style: none;
+  text-align: center;
 }
 main section.technologyEn ul li div {
   width: 100%;
@@ -466,6 +467,9 @@ main section.technologyEn ul li div.ishimatuori {
 }
 main section.technologyEn ul li div.software {
   background-image: url(../images/technology/software.jpg);
+}
+main section.technologyEn ul li span {
+  font-weight: bold;
 }
 main section.concept h2 {
   line-height: 1.3;
