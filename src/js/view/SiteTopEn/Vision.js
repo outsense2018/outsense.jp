@@ -13,8 +13,8 @@ export default () => state => (
       and want to make people feel more bright.
     </p>
     <p>
-    Living outside of the earth, then human being will meet unexpected world,<br />
-    experience, feeling, culture, ability... completely new thing.
+    Living outside of the earth, then human being will meet unexpected<br />
+    world, experience, feeling, culture, ability... completely new thing.
     </p>
     <p>
     For these future, we promote space development by providing space residence.
