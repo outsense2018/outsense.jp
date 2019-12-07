@@ -8,6 +8,7 @@ export default () => (state, actions) => (
     </h1>
     <nav>
       <button onclick={actions.toggleNews}>News</button>
+      <Link to="/">Japanese</Link>
       <Link to="/en">English</Link>
       <a href="https://twitter.com/teamoutsense" target="_blank">
         Twitter
