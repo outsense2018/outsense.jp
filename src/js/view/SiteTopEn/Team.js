@@ -2,14 +2,14 @@ import { h } from 'hyperapp' // @jsx h
 
 export default () => state => (
   <section className="team">
-    <h1>Team</h1>
-
+    <h1>Teams</h1>
+    <h2>Members</h2>
     <ul>
       <li>
         <div className="yozan-takahashi"></div>
         <h3>
-          <span>代表取締役社長 CEO</span>
-          Yozan Takahashi
+          <span>CEO</span>
+          Yozan<br /> Takahashi
         </h3>
       </li>
 
@@ -17,7 +17,7 @@ export default () => state => (
         <div className="akio-ito"></div>
         <h3>
           <span>COO</span>
-          Akio Ito
+          Akio<br /> Ito
         </h3>
       </li>
 
@@ -25,7 +25,7 @@ export default () => state => (
         <div className="shuga-horii"></div>
         <h3>
           <span>CDO</span>
-          Shuga Horii
+          Shuga<br /> Horii
         </h3>
       </li>
 
@@ -33,7 +33,17 @@ export default () => state => (
         <div className="shintaro-ishimatsu"></div>
         <h3>
           <span>CTO</span>
-          Shintaro Ishimatsu
+          Shintaro<br /> Ishimatsu
+        </h3>
+      </li>
+    </ul>
+    <h2>Advisor</h2>
+    <ul>
+      <li>
+        <div className="akito-sogame"></div>
+        <h3>
+          <span>Technical Advisor</span>
+          Akito<br /> Sogame
         </h3>
       </li>
     </ul>
