@@ -435,13 +435,22 @@ main
   section.conceptEn
     h2
       line-height: 1.3    
-
-    div.gif  
-      background-image: url(../images/concept/concept.gif)
       margin-top: 5rem
 
-    div.useimage  
-      background-image: url(../images/concept/useimage.jpg)  
+    div.gif
+      width: 100%
+      height: 40rem
+      position: relative
+      padding-bottom: 56.25%
+      height: 0
+      margin-bottom: 8rem
+      overflow: hidden
+
+      &.gif
+        background-image: url(../images/concept/concept.gif)
+
+      &.useimage  
+        background-image: url(../images/concept/useimage.jpg)  
 
   section.company
 
