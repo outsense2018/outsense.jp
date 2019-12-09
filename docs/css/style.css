@@ -478,7 +478,7 @@ main section.conceptEn h2 {
   line-height: 1.3;
   margin-top: 5rem;
 }
-main section.conceptEn div.gif {
+main section.conceptEn div {
   width: 100%;
   height: 40rem;
   position: static;
@@ -490,11 +490,11 @@ main section.conceptEn div.gif {
   background-position: center;
   background-size: cover;
 }
-main section.conceptEn div.gif.gif {
+main section.conceptEn div.gif {
   background-image: url(../images/concept/concept.gif);
   alt: "concept";
 }
-main section.conceptEn div.gif.useimage {
+main section.conceptEn div.useimage {
   background-image: url(../images/concept/useimage.jpg);
   alt: "use image";
 }
