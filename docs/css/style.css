@@ -480,23 +480,24 @@ main section.conceptEn h2 {
 }
 main section.conceptEn div {
   width: 100%;
-  height: 40rem;
+  height: auto;
   position: static;
-  padding-bottom: 56.25%;
+  padding-bottom: 30%;
+  padding-top: 30%;
   height: 0;
-  margin-bottom: 8rem;
-  overflow: relative;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  overflow: hidden;
   border-radius: 0.5rem;
   background-position: center;
   background-size: cover;
 }
 main section.conceptEn div.gif {
   background-image: url(../images/concept/concept.gif);
-  alt: "concept";
 }
 main section.conceptEn div.useimage {
   background-image: url(../images/concept/useimage.jpg);
-  alt: "use image";
+  max-width: 100%;
 }
 main section.company a {
   color: #ffa200;
