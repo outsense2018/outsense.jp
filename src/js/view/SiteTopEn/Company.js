@@ -6,7 +6,7 @@ export default () => state => (
 
     <div>
       <iframe
-        src="https://www.youtube.com/embed/XBXnyLqSkXw"
+        src="https://youtu.be/kT11bv7aGbk"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -32,7 +32,7 @@ export default () => state => (
           <p>Tokyo, Japan</p>
           <p>
             <a
-              href="https://www.google.com/maps/place/OUTSENSE+本社/@35.6848207,139.7140409,17z/data=!4m8!1m2!2m1!1z5qCq5byP5Lya56S-T1VUU0VOU0U!3m4!1s0x60188d95f8beee55:0xc72e19cc73fb535f!8m2!3d35.6847758!4d139.7161496?hl=ja-JP"
+              href="https://goo.gl/maps/cUTZhEh6bPYxsQk69"
               target="_blank"
             >
               Open in GoogleMap
