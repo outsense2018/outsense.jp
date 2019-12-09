@@ -481,7 +481,7 @@ main section.conceptEn h2 {
 main section.conceptEn div.gif {
   width: 100%;
   height: 40rem;
-  position: relative;
+  position: static;
   padding-bottom: 56.25%;
   height: 0;
   margin-bottom: 8rem;
