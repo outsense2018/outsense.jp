@@ -559,7 +559,6 @@ main section.company > div iframe {
 }
 main section.companyEn {
   background: white;
-  color: #203060;
 }
 main section.companyEn a {
   color: #ffa200;
@@ -568,10 +567,12 @@ main section.companyEn table {
   width: 100%;
   margin-bottom: 5rem;
   border-collapse: collapse;
+  background: #203060;
+  color: white;
 }
 @media screen and (min-width: 480px) {
   main section.companyEn table tr:nth-child(odd) {
-    background: #203060;
+    background: #232f5c;
   }
 }
 main section.companyEn table tr > :first-child {
