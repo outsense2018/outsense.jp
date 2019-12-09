@@ -485,7 +485,7 @@ main section.conceptEn div.gif {
   padding-bottom: 56.25%;
   height: 0;
   margin-bottom: 8rem;
-  overflow: hidden;
+  overflow: visible;
 }
 main section.conceptEn div.gif.gif {
   background-image: url(../images/concept/concept.gif);
