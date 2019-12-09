@@ -515,6 +515,65 @@ main
         width: 100%
         height: 100%
 
+  section.companyEn
+    background: white
+    color: hsl(225, 50%, 25%)
+
+    a
+      color: hsl(38, 100%, 50%)
+
+    table
+      width: 100%
+      margin-bottom: 5rem
+      border-collapse: collapse
+
+      tr
+
+        @media screen and (min-width: 480px)
+          &:nth-child(odd)
+            background: hsl(225, 50%, 25%)
+
+        & > :first-child
+          border-radius: 0.5rem 0 0 0.5rem
+
+        & > :last-child
+          border-radius: 0 0.5rem 0.5rem 0
+
+        th, td
+          font-weight: normal
+          text-align: left
+          vertical-align: top
+          line-height: 1.5
+
+          @media screen and (max-width: 479px)
+            display: block
+            padding: 0.5rem 0
+
+          @media screen and (min-width: 480px)
+            padding: 1rem 2rem
+
+    ul
+      padding: 0.5rem 0 0.5rem 2.5rem
+
+    div
+      width: 100%
+      height: 40rem
+
+    & > div
+      position: relative
+      padding-bottom: 56.25%
+      height: 0
+      margin-bottom: 8rem
+      overflow: hidden
+
+      iframe
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100% 
+
+
   section.movie
     & > div
       position: relative
