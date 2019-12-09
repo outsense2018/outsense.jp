@@ -6,7 +6,7 @@ export default () => state => (
 
     <div>
       <iframe
-        src="https://youtu.be/kT11bv7aGbk"
+        src="https://www.youtube.com/watch?v=kT11bv7aGbk&feature=youtu.be"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
