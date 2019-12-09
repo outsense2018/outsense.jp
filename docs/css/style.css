@@ -485,13 +485,18 @@ main section.conceptEn div.gif {
   padding-bottom: 56.25%;
   height: 0;
   margin-bottom: 8rem;
-  overflow: visible;
+  overflow: relative;
+  border-radius: 0.5rem;
+  background-position: center;
+  background-size: cover;
 }
 main section.conceptEn div.gif.gif {
   background-image: url(../images/concept/concept.gif);
+  alt: "concept";
 }
 main section.conceptEn div.gif.useimage {
   background-image: url(../images/concept/useimage.jpg);
+  alt: "use image";
 }
 main section.company a {
   color: #ffa200;
