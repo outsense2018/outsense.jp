@@ -582,10 +582,12 @@ main section.companyEn table tr > :last-child {
   border-radius: 0 0.5rem 0.5rem 0;
 }
 main section.companyEn table tr th, main section.companyEn table tr td {
-  font-weight: normal;
   text-align: left;
   vertical-align: top;
   line-height: 1.5;
+}
+main section.companyEn table tr th th, main section.companyEn table tr td th {
+  font-weight: bold;
 }
 @media screen and (max-width: 479px) {
   main section.companyEn table tr th, main section.companyEn table tr td {
