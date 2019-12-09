@@ -1,7 +1,7 @@
 import { h } from "hyperapp"; // @jsx h
 
 export default () => state => (
-  <section className="company">
+  <section className="companyEn">
     <h1>Company</h1>
 
     <div>
@@ -29,11 +29,7 @@ export default () => state => (
       <tr>
         <th>Location</th>
         <td>
-          <p>
-            〒160-0015
-            <br />
-            東京都新宿区大京町25-3 キングダム御苑804
-          </p>
+          <p>Tokyo, Japan</p>
           <p>
             <a
               href="https://www.google.com/maps/place/OUTSENSE+本社/@35.6848207,139.7140409,17z/data=!4m8!1m2!2m1!1z5qCq5byP5Lya56S-T1VUU0VOU0U!3m4!1s0x60188d95f8beee55:0xc72e19cc73fb535f!8m2!3d35.6847758!4d139.7161496?hl=ja-JP"
