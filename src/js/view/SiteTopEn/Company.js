@@ -5,12 +5,12 @@ export default () => state => (
     <h1>Company</h1>
 
     <div>
-      <iframe
-        src="https://www.youtube.com/watch?v=kT11bv7aGbk&feature=youtu.be"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/kT11bv7aGbk?showinfo=0?modestbranding=1?cc_load_policy=1"      
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+    ></iframe>
     </div>
 
     <table>
