@@ -567,7 +567,7 @@ main section.companyEn table {
   width: 100%;
   margin-bottom: 5rem;
   border-collapse: collapse;
-  background: #384f94;
+  background: #314581;
   color: white;
 }
 @media screen and (min-width: 480px) {
@@ -602,6 +602,7 @@ main section.companyEn ul {
   padding: 0.5rem 0 0.5rem 2.5rem;
 }
 main section.companyEn div {
+  margin-top: 5rem;
   width: 100%;
   height: 40rem;
 }
