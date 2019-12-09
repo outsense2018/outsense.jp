@@ -497,6 +497,7 @@ main section.conceptEn div.gif {
 main section.conceptEn div.useimage {
   background-image: url(../images/concept/useimage.jpg);
   max-width: 100%;
+  max-height: 100%;
 }
 main section.company a {
   color: #ffa200;
