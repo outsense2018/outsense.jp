@@ -30,7 +30,7 @@ export default () => state => (
           </p>
           <p>
             <a href="https://goo.gl/maps/TDSSyMgrqwtMqVku8" target="_blank">
-              住所をGoogleMapで開く
+              GoogleMapで開く
             </a>
           </p>
         </td>
