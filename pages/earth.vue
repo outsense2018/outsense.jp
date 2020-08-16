@@ -14,7 +14,6 @@
       <b-button
         :pressed="topFlag === 'SPACE'"
         @click="topFlag = SPACE"
-        to="/space"
       >SPACE</b-button>
     </b-form-group>
     <b-form-group align="right" id=title>
