@@ -1,15 +1,21 @@
 <template>
   <div id="bg" align="center">
-    <div class="moon">
-      <a to="earth"><img src="@/assets/moon-header7.png" alt="宇宙事業" hover /></a>
-    </div>
-    <div id="logo">
-      <img src="@/assets/outsense.png" max-height="1vh"/>
-      <p>常識を超え、創造の先へ</p>
-    </div>
-    <div class="footer_fix_btn">
-      <img src="@/assets/earth-header3.png" alt="地上事業"/>
-    </div>
+    <transition name="fade">
+      <div class="moon" v-if="showmoon">
+        <a to="earth"><img src="@/assets/moon-header7.png" alt="宇宙事業" hover/></a>
+      </div>
+    </transition>
+    <transition name="fade">
+      <div id="logo" v-if="showlogo">
+        <img src="@/assets/outsense.png" max-height="1vh"/>
+        <p>常識を超え、創造の先へ</p>
+      </div>
+    </transition>
+    <transition name="fade">
+      <div class="footer_fix_btn" v-if="showearth">
+        <img src="@/assets/earth-header3.png" alt="地上事業"/>
+      </div>
+    </transition>  
   </div>
 </template>
 
@@ -21,11 +27,20 @@ import Icon from '@/components/Icon.vue';
 export default {
   data() {
     return {
+      showmoon: false,
+      showlogo: false,
+      showearth: false,
     };
   },
   components: {
     Icon
-  }
+  },
+  created() {
+    this.show = false;
+    setTimeout(() => { this.showmoon = true }, 1500 )
+    setTimeout(() => { this.showearth = true }, 1500 )
+    setTimeout(() => { this.showlogo = true }, 2500 )
+  },
 }
 </script>
 
@@ -34,6 +49,10 @@ export default {
   background-color: black
   width: 100%
   height: 100vw
+.fade-enter-active, .fade-leave-active
+  transition: opacity .7s
+.fade-enter, .fade-leave
+  opacity: 0
 .moon
   position: relative
   img
