@@ -1,19 +1,20 @@
 <template>
-  <div id="bg" align="center">
+  <div id="bg-top" align="center">
     <transition name="fade">
       <div class="moon" v-if="showmoon">
-        <a to="earth"><img src="@/assets/moon-header7.png" alt="宇宙事業" hover/></a>
+        <router-link to="/space"><img src="@/assets/moon-header7.png" alt="宇宙事業" hover/></router-link>
       </div>
     </transition>
     <transition name="fade">
       <div id="logo" v-if="showlogo">
-        <img src="@/assets/outsense.png" max-height="1vh"/>
+        <router-link to="/vision"><img src="@/assets/outsense.png" max-height="1vh"/>
         <p>常識を超え、創造の先へ</p>
+        </router-link>
       </div>
     </transition>
     <transition name="fade">
       <div class="footer_fix_btn" v-if="showearth">
-        <img src="@/assets/earth-header3.png" alt="地上事業"/>
+        <router-link to="/earth"><img src="@/assets/earth-header3.png" alt="地上事業"/></router-link>
       </div>
     </transition>  
   </div>
@@ -39,13 +40,13 @@ export default {
     this.show = false;
     setTimeout(() => { this.showmoon = true }, 1500 )
     setTimeout(() => { this.showearth = true }, 1500 )
-    setTimeout(() => { this.showlogo = true }, 2500 )
+    setTimeout(() => { this.showlogo = true }, 2700 )
   },
 }
 </script>
 
 <style lang="sass">
-#bg 
+#bg-top
   background-color: black
   width: 100%
   height: 100vw

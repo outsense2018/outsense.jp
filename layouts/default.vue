@@ -30,6 +30,8 @@ export default Vue.extend({
 body
   margin: 0px
   padding: 0px
+  overflow-y: hidden
+  background-color: black
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 </style>
