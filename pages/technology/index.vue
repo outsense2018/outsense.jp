@@ -1,31 +1,31 @@
 <template>
   <div id="bg">
     <global-nav-bar></global-nav-bar>
-    <b-row>
+    <b-row style="padding-left:3vw;padding-right:3vw">
       <b-col cols="7" id="expl">
         <p>弊社が保有している特許の折りの技術、また、特許の折りパターンに限らず、</p>
         <p>お客様のニーズ、製品課題や社会課題に対応した折りの提案を行います。</p>
       </b-col>
       <b-col align=right cols="5" style="padding-left:3vw;margin-top:0">
-        <h3 >Technology</h3>
+        <h3 class="h3t">Technology</h3>
         <div id="change">
           <span>日本語</span><span>｜</span><span>ENGLISH</span>
         </div>
       </b-col>
     </b-row>
     <b-container fluid class="text-center">
-      <b-row style="margin-top:2vw;margin-bottom:1vw" align-v="end">
+      <b-row style="margin-top:0.5vw;margin-bottom:1vw" align-v="end">
         <b-col cols="3">
-          <img src="@/assets/top.jpg" alt="設備1" style="width:10vw;height:10vw"/>
+          <img src="@/assets/sogame11.jpg" alt="十亀" style="width:12vw;height:12vw"/>
         </b-col>
         <b-col cols="3">
-          <img src="@/assets/top.jpg" alt="設備1" style="width:11vw;height:12vw"/>
+          <img src="@/assets/isimatuori.JPG" alt="石松" style="width:12vw;height:12vw"/>
         </b-col>
         <b-col cols="3">
-          <img src="@/assets/top.jpg" alt="設備1" style="width:15vw;height:17vw"/>
+          <img src="@/assets/yousetu23.gif" alt="軸" style="width:21vw;height:14vw"/>
         </b-col>
         <b-col cols="3">
-          <img src="@/assets/top.jpg" alt="設備1" style="width:11vw;height:12vw"/>
+          <img src="@/assets/software11.jpg" alt="ソフト" style="width:12vw;height:12vw"/>
         </b-col>
       </b-row>
     </b-container>  
@@ -75,15 +75,22 @@ export default builder()
     return {}
   }  
 })
+.withLifecycles({
+  mounted: function() {
+    document.body.className = 'bodyt';
+  }
+})
 .build();
 </script>
 
 <style lang="sass">
-body
+body.bodyt
   margin: 0px
   padding: 0px
   background-color: white
-h3 
+  overflow-y: no-content
+  overflow-x: hidden
+.h3t 
   font-size: 4vmax
   font-weight: bold
   font-family: "Arial Black"

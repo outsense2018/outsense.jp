@@ -2,17 +2,17 @@
   <div>
     <b-navbar id="topnav" toggleable="lg" fixed='top'>
       <b-container fluid>
-        <b-navbar-brand><router-link to="/"><img class="d-block mx-auto my-1" style="height:3vw" src="@/assets/rogo.png" alt="ロゴ"  /></router-link></b-navbar-brand>
-        <b-dropdown id="nav-item" size="lg" variant="link" right toggle-class="text-decoration-none" no-caret>
+        <b-navbar-brand><router-link to="/"><img style="height:3vw" src="@/assets/rogo.png" alt="ロゴ"  /></router-link></b-navbar-brand>
+        <b-dropdown id="nav-item" size="lg" variant="link" right no-caret>
           <template v-slot:button-content>
-            <img src="@/assets/item1.png" style="height:3vw"/><span class="sr-only">Search</span>
+            <img src="@/assets/menuicon.png" style="height:3vw"/>
           </template>
           <b-dropdown-item to="/vision">
             Vision
           </b-dropdown-item>
           <b-dropdown-divider />
           <b-dropdown-item to="/portfolio">
-            Portofolio
+            Portfolio
           </b-dropdown-item>
           <b-dropdown-divider />
           <b-dropdown-item to="/technology">
@@ -49,25 +49,17 @@
 </template>
 
 <script lang="ts">
-import Vue, { PropType } from 'vue';
+import builder from '@/assets/ts/vue-builder';
+import Vue from 'vue';
 import Icon from '@/components/Icon.vue';
+import _ from 'lodash';
 
-export default Vue.extend({
-  components: { Icon },
-  props: {
-    // title: String as PropType<string>,
+export default {
+  data() {
+    return {
+    };
   },
-  computed: {
-    // currentPath(): string {
-    //   return this.$route.path;
-    // },
-  },
-  methods: {
-    backUrl() {
-      history.back();
-    },
-  },
-});
+}
 </script>
 
 <style lang="sass">

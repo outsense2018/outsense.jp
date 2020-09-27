@@ -3,11 +3,11 @@
     <global-nav-bar></global-nav-bar>
     <b-row id="left">
       <b-col cols="6" style="padding-left:0">
-        <img src="@/assets/top.jpg" alt="設備1" style="width:48vw;height:40vw" align=left />
+        <img src="@/assets/top.jpg" alt="設備1" style="width:48vw;height:35vw" align=left />
       </b-col>
       <b-col cols="6" style="padding-left:3vw;margin-top:0;padding-right:4vw">
         <div id="doc">
-          <h3>Vision</h3>
+          <h3 class="h3v">Vision</h3>
           <div id="change">
             <span>日本語</span><span>｜</span><span>ENGLISH</span>
           </div>
@@ -43,15 +43,22 @@ export default builder()
     return {}
   }  
 })
+.withLifecycles({
+  mounted: function() {
+    document.body.className = 'bodyv';
+  }
+})
 .build();
 </script>
 
 <style lang="sass">
-body
+body.bodyv
   margin: 0px
   padding: 0px
   background-color: white
-h3 
+  overflow-y: no-content
+  overflow-x: hidden
+.h3v
   font-size: 4vmax
   font-weight: bold
   font-family: "Arial Black"
@@ -80,8 +87,8 @@ h3
     font-weight: bold
     font-size: 1vmax
     font-family: "ヒラギノ角ゴシック"
-    margin: 1vmax
-  height: 10vw
+    margin: 0.5vmax
+  height: 8vw
 #footer
   width: 100vw
   position: absolute

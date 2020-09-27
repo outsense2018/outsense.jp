@@ -2,17 +2,17 @@
   <div id="bg">
     <global-nav-bar></global-nav-bar>
     <b-row>
-      <b-col cols="6" class="border-right" style="border-right;padding-right:5vw">
+      <b-col cols="6" class="border-right" style="border-right;padding-right:5vw;height:80%">
         <b-row style="margin-bottom:2vw">
-          <b-col><img src="@/assets/top.jpg" alt="設備1" style="width:30vw;height:20vw" align=right /></b-col>
+          <b-col><img src="@/assets/office.jpg" alt="オフィス" style="width:30vw;height:18vw" align=right /></b-col>
         </b-row>
         <b-row id="bottom">
-          <b-col cols="6"><img src="@/assets/top.jpg" alt="設備1" style="width:16vw;height:16vw" align=right /></b-col>
-          <b-col cols="6"><img src="@/assets/top.jpg" alt="設備1" style="width:16vw;height:16vw" align=right /></b-col>
+          <b-col cols="6"><img src="@/assets/3Dprint11.jpg" alt="3Dプリンター" style="width:14vw;height:14vw" align=right /></b-col>
+          <b-col cols="6"><img src="@/assets/rasercutter.jpg" alt="レーザーカッター" style="width:16vw;height:14vw" align=right /></b-col>
         </b-row>
       </b-col>
       <b-col cols="6" style="padding-left:3vw;margin-top:0">
-        <h3>Company</h3>
+        <h3 class="h3c">Company</h3>
         <div id="doc">
           <p>事業内容</p>
           <span>【地上事業】</span>
@@ -65,22 +65,30 @@ export default builder()
     return {}
   }  
 })
+.withLifecycles({
+  mounted: function() {
+    document.body.className = 'bodyc';
+  }
+})
 .build();
 </script>
 
 <style lang="sass">
-body
+body.bodyc
   margin: 0px
   padding: 0px
   background-color: white
-h3 
+  overflow-y: no-content
+  overflow-x: hidden
+.h3c 
   font-size: 4vmax
   font-weight: bold
   font-family: "Arial Black"
   text-align: left
-  margin-bottom: 5%
+  margin-bottom: 1vw
   margin-top: 0
 #doc
+  height: 50%
   span
     font-size: 1vmax
     font-family: "ヒラギノ角ゴシック"
@@ -90,10 +98,9 @@ h3
     font-family: "ヒラギノ角ゴシック"
     margin: 0
   li
-    font-size: 1vmax
+    font-size: 0.9vmax
     font-family: "ヒラギノ角ゴシック"
     margin: 0
-  height: 10vw
 #bg
   background-color: white
   color: black

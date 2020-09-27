@@ -1,5 +1,5 @@
 <template>
-  <div id="bg">
+  <div id="bgp">
     <global-nav-bar></global-nav-bar>
     <h3>Portfolio</h3>
     <b-row>
@@ -18,8 +18,18 @@
       <p>是非、contactページよりお問い合わせください。</p>
       <p>（※自社アイデアのサービス製品に関しては、協業は決まり次第HP掲載を止めさせていただきます。）</p>
     </div>
+    <div align=center>
+      <router-link to="/contact">
+        <b-button style="margin-bottom:3%" size="md" squared variant="outline-secondary">
+          <icon type="play" style="color:black;cursor:pointer;" />
+          <span class="glyphicon glyphicon-apple" aria-hidden="true"></span>
+          <b-icon-envelope></b-icon-envelope>
+          <span style="font-family:'Arial';margin-left:1vw">Contact</span>
+        </b-button>
+      </router-link>
+    </div>
     <hr>
-    <p id="footer">©2018- OUTSENSE inc.</p>
+    <p id="footerp">©2018- OUTSENSE inc.</p>
   </div>
 </template>
 
@@ -28,9 +38,10 @@ import GlobalNavBar from '@/components/GlobalNavBar.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
 import Icon from '@/components/Icon.vue';
+import { BIcon, BIconEnvelope } from 'bootstrap-vue'
 
 export default builder()
-.withComponents({ Icon, GlobalNavBar })
+.withComponents({ Icon, GlobalNavBar, BIcon, BIconEnvelope })
 .withData({
   data() {
     const contents = [
@@ -166,14 +177,20 @@ export default builder()
     return {contents}
   }  
 })
+.withLifecycles({
+  mounted: function() {
+    document.body.className = 'bodyp';
+  }
+})
 .build();
 </script>
 
 <style lang="sass">
-body
+body.bodyp
   margin: 0px
   padding: 0px
   background-color: white
+  overflow-x: hidden
   overflow-y: scroll
 h3 
   margin-top: 10%
@@ -188,7 +205,7 @@ h3
   color: black
   font-family: "ヒラギノ角ゴシック"
   width: 80vw
-#bg
+#bgp
   background-color: white
   color: black
   width: 80vw
@@ -213,11 +230,11 @@ h3
 #comment
   font-size: 1.3vmax
   font-weight: bold
-  margin-bottom: 5%
+  margin-bottom: 3%
   text-align: center
   p
     margin: 1px
-#footer
+#footerp
   font-color: black
   padding-top: 0.5vw
   font-size: 0.8vmax
