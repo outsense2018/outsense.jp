@@ -5,25 +5,16 @@
 </template>
 
 <script lang="ts">
+import builder from '@/assets/ts/vue-builder';
 import Vue from 'vue';
 import _ from 'lodash';
 
-export default Vue.extend({
-  components: {
-  },
+export default builder()
+.withData({
   data() {
-    return {
-    };
-  },
-  async mounted() {
-  },
-  computed: {
-  },
-  methods: {
-  },
-  async created() {
-  },
-});
+    return {}
+  }  
+}).build();
 </script>
 
 <style lang="sass">

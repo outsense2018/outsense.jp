@@ -1,5 +1,5 @@
 <template>
-  <div id="bg">
+  <div class="bgh">
     <global-nav-bar></global-nav-bar>
     <b-row>
       <b-col cols="6" class="border-right" style="border-right;padding-right:5vw">
@@ -7,10 +7,12 @@
       </b-col>
       <b-col cols="6" style="padding-left:3vw;margin-top:0">
         <h3 class="h3h">History</h3>
-        <div id="doc">
-          <b-row v-for="(content,index) in contents" :key="index" id="item">
-            <b-col cols="2" style="margin-bottom:0.2vmax">
-              {{content.when}}              
+        <div class="doch">
+          <b-row v-for="(content,index) in contents" :key="index">
+            <b-col cols="2">
+              <span class="hist">
+                {{content.when}}
+              </span>
             </b-col>
             <b-col cols="10">
               {{content.what}}
@@ -33,6 +35,7 @@ import GlobalNavBar from '@/components/GlobalNavBar.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
 import Icon from '@/components/Icon.vue';
+import VueRouter from 'vue-router'
 
 export default builder()
 .withComponents({ Icon, GlobalNavBar })
@@ -60,7 +63,7 @@ export default builder()
 .withLifecycles({
   mounted: function() {
     document.body.className = 'bodyh';
-  }
+  },
 })
 .build();
 </script>
@@ -79,10 +82,12 @@ body.bodyh
   text-align: left
   margin-bottom: 5%
   margin-top: 0
-#doc
+.doch
   font-size: 1vmax
   font-family: "ヒラギノ角ゴシック"
-#bg
+  .hist
+    margin-bottom: 0.2vmax  
+.bgh
   background-color: white
   color: black
   margin: 10%

@@ -16,7 +16,7 @@
             <label for="company">ご所属 <span style="color:red">必須</span></label><br>
             <input id="company" type="text" name="entry.1213510003" placeholder="企業名、学校名等をお書きください" required><br>
             <label for="email">メールアドレス <span style="color:red">必須</span></label><br>
-            <input id="email" type="text" name="entry.790185578" placeholder="example@mail.co.jp　※お間違えのないようご注意ください" required><br>
+            <input id="email" type="text" name="entry.790185578" placeholder="example@mail.co.jp　※返信時に利用します。お間違えのないようご注意ください" required><br>
             <label for="msg">お問合せ内容 <span style="color:red">必須</span></label><br>
             <textarea id="msg" name="entry.149388788" placeholder="お問合せ内容をご記入ください。" required></textarea><br>
             <b-button type="submit" value="送信" style="background-color:orange" size="sm">送信</b-button>

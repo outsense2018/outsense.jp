@@ -54,12 +54,13 @@ import Vue from 'vue';
 import Icon from '@/components/Icon.vue';
 import _ from 'lodash';
 
-export default {
+export default builder()
+.withComponents({ Icon })
+.withData({
   data() {
-    return {
-    };
-  },
-}
+    return {}
+  }  
+}).build();
 </script>
 
 <style lang="sass">

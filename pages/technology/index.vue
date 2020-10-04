@@ -1,5 +1,5 @@
 <template>
-  <div id="bg">
+  <div class="bgt">
     <global-nav-bar></global-nav-bar>
     <b-row style="padding-left:3vw;padding-right:3vw">
       <b-col cols="7" id="expl">
@@ -32,17 +32,17 @@
     <b-container fluid class="text-center">
       <b-row id="docs">
         <b-col cols="3">
-          <span>十亀折</span><br><br>
+          <span>ソガメ折り</span><br><br>
           <p>薄膜かつ筒状の</p>
           <p>3次元展開構造物</p>
         </b-col>
         <b-col cols="3">
-          <span>石松折</span><br><br>
+          <span>イシマツ折り</span><br><br>
           <p>3次元に展開する</p>
           <p>剛体で構成された構造物</p>
         </b-col>
         <b-col cols="3">
-          <span>軸折</span><br><br>
+          <span>軸機構</span><br><br>
           <p>折り紙を機構として発展させた</p>
           <p>新しい展開/変形機構</p>
         </b-col>
@@ -84,19 +84,23 @@ export default builder()
 </script>
 
 <style lang="sass">
+.bgt
+  background-color: white
+  color: black
+  margin: 10%
+  padding-top: 0
+.h3t
+  font-size: 4vmax
+  font-weight: bold
+  font-family: "Arial Black"
+  margin-bottom: 5%
+  margin-top: 0
 body.bodyt
   margin: 0px
   padding: 0px
   background-color: white
   overflow-y: no-content
   overflow-x: hidden
-.h3t 
-  font-size: 4vmax
-  font-weight: bold
-  font-family: "Arial Black"
-  margin-bottom: 5%
-  margin-top: 0
-  padding-top: 0  
 #expl
   margin-top: 1vw
   p
@@ -118,10 +122,6 @@ body.bodyt
   p
     align-text: center
     margin: 0
-#bg
-  background-color: white
-  color: black
-  margin: 10%
 #footer
   width: 100vw
   position: absolute

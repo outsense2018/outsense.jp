@@ -1,7 +1,7 @@
 <template>
   <div id="bgp">
     <global-nav-bar></global-nav-bar>
-    <h3>Portfolio</h3>
+    <h3 class="h3p">Portfolio</h3>
     <b-row>
       <b-col v-for="(content,index) in contents" :key="index" cols="4" id="item">
         <b-row cols="1" style="margin-bottom:100px">
@@ -21,10 +21,8 @@
     <div align=center>
       <router-link to="/contact">
         <b-button style="margin-bottom:3%" size="md" squared variant="outline-secondary">
-          <icon type="play" style="color:black;cursor:pointer;" />
-          <span class="glyphicon glyphicon-apple" aria-hidden="true"></span>
-          <b-icon-envelope></b-icon-envelope>
-          <span style="font-family:'Arial';margin-left:1vw">Contact</span>
+          <b-icon-play-fill></b-icon-play-fill>
+          <span style="font-family:'Arial';margin-left:0.5vw">Contact</span>
         </b-button>
       </router-link>
     </div>
@@ -37,11 +35,10 @@
 import GlobalNavBar from '@/components/GlobalNavBar.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
-import Icon from '@/components/Icon.vue';
-import { BIcon, BIconEnvelope } from 'bootstrap-vue'
+import { BIcon, BIconPlayFill } from 'bootstrap-vue'
 
 export default builder()
-.withComponents({ Icon, GlobalNavBar, BIcon, BIconEnvelope })
+.withComponents({ GlobalNavBar, BIcon, BIconPlayFill })
 .withData({
   data() {
     const contents = [
@@ -49,81 +46,81 @@ export default builder()
         title:"3次元展開構造物オブジェクト",
         url:"/deroito.jpg",
         category:"展示品制作/納品",
-        detail:"宇宙での居住施設構築を目指す当社展開構造物の1/20模型を納品。Deloitte様は、Greenhouseというイノベーション創発施設で企業のエグゼクティブが抱える課題を紐解くサポートを推進しており、イノベイティブなベンチャー企業のプロダクトを展示されている。",
+        detail:"宇宙での居住施設構築を目指す当社展開構造物の1/20模型を納品した。デロイト様のGreenhouseというイノベーション創発施設にて展示されている。",
         company:"デロイトトーマツ",
-        when:"June,2018",
+        when:"May. 2018",
       },
       {
         title:"宇宙居住施設に関する知識提供",
         url:"/sorabatake.jpg",
         category:"宇宙建築コンサルティング業務",
-        detail:"宇宙居住の知識を理解するための小冊子の作成において、宇宙建築の分野の知識提供、WSの企画、運営、小冊子をつくる際のアドバイザー業務等を弊社が担当した。",
+        detail:"宇宙居住の知識を理解するための小冊子の作成におけて、弊社は、宇宙建築の分野の知識提供、WSの企画、運営、最終成果物となる小冊子をつくる際のアドバイザー業務等を担当した。",
         company:"Panasonic＋soranome",
-        when:"Sep,2018",
+        when:"Mar. 2019",
       },
       {
         title:"折り紙ブース装飾壁面",
         url:"/dnp.gif",
         category:"展示品製作/図面納品",
-        detail:"Jwave様のイベント内において大日本印刷様が担当されたブース壁面の装飾を行い、依頼いただいた壁面の凹凸の再現と2m×6mの壁面を2m×0.5m程度に収納し輸送する事ができるように設計した。",
+        detail:"Jwave様のイベント内においてDNP様が担当されていたブース壁面の装飾を行い、壁面の凹凸の再現と2m×6mの壁面を2m×0.5m程度に収納し輸送する事ができるように設計した。また、DNP様企業内展示会では、アーチ、机、オブジェクトなどの製作も行った。",
         company:"大日本印刷",
-        when:"Oct,2018",
+        when:"Sep. 2019",
       },
       {
         title:"ドーム形状照明設計/試作",
         url:"/sakase.jpg",
         category:"試作品製作/施工提案",
-        detail:"サカセアドテック様の三軸織の材料を用いた、ドーム形状の設計提案、プロトタイプの作成、製品化した際の施工提案を行った。ドーム形状製作する際には、形状を保持するために、型枠を使用していたが、弊社は、曲面織を用い、1枚の平面形状からドーム形状を作ることを可能にした",
+        detail:"サカセアドテック様の三軸織の材料を用いた、ドーム形状の設計提案、プロトタイプの作成、製品化した際の施工提案を行った。ドーム形状製作する際には、形状を保持するために、型枠を使用していたが、弊社は、曲面織を用い、1枚の平面形状からドーム形状を作ることを可能にした。",
         company:"サカセアドテック",
-        when:"Oct,2018",
+        when:"Sep. 2019",
       },
       {
         title:"折り畳みタイヤの設計提案",
         url:"/buri.jpg",
         category:"試作品製作/納品・試作品図面納品",
-        detail:"展開収納することができる変形可能なタイヤの設計提案、および、試作物の作成、試作物の図面の提供を行った。",
+        detail:"展開収納することができる変形可能なタイヤの設計提案、および、試作物の作成、試作物の図面の提供を行った。折りのパターンにより、部位における強度の変化も可能である。",
         company:"ブリヂストン社",
-        when:"June,2018",
+        when:"Nov. 2019",
       },
       {
         title:"折り畳み角筒の設計、試作品製作",
         url:"/ihi.gif",
         category:"試作品製作/納品・試作品図面納品",
-        detail:"平面に折り畳まれた状態から2mの高さまで展開する6角形の角柱を製作いたしました。折り目を付与することによって、決まった形に変化する再現性のある収納展開が期待できます。",
+        detail:"平面に折り畳まれた状態から2mの高さまで展開する6角形の角柱を製作した。折り目を付与することによって、決まった形に変化する再現性のある収納展開が期待できる。",
         company:"大手企業様",
-        when:"Sep,2018",
+        when:"Feb. 2020",
       },
       {
         title:"剛性素材の折り畳み研究開発",
         url:"/yamaha.gif",
         category:"共同研究開発",
-        detail:"剛性（厚み）を持った材料の新規事業領域の開拓として、企業様の技術を活かした新規事業の立案、および、その素材での折り畳みの研究開発（剛性のある材料を折りたたむ）、その技術を用いた製品の試作開発を推進。",
+        detail:"剛性（厚み）を持った材料の新規事業領域の開拓として、企業様の技術を活かした新規事業の立案、および、その素材での折り畳みの研究開発（剛性のある材料を折りたたむ）、その技術を用いた製品の試作開発を推進している。",
         company:"大手素材メーカー様",
-        when:"Oct,2018",
+        when:"Apr. 2020~",
       },
       {
         title:"折りたたみ建材の研究開発",
         url:"/misawa.jpg",
         category:"共同研究開発",
-        detail:"家具、建材メーカー企業様が自社製品開発を行う際に折り紙の技術に着目されており、折り紙の専門知識をもつ弊社にコンサルティングを依頼いただきました。企業様の業種が家具/建材ということで生活空間にイノベーションを創出するようなプロダクト開発を目指します。",
+        detail:"建材メーカー企業様が自社製品開発を行う際に折り紙の技術に着目されており、折り紙の専門知識をもつ弊社にコンサルティングを依頼していただいた。家具/建材で生活空間にイノベーションを創出するようなプロダクト開発を目指している。",
         company:"LIXIL",
-        when:"Oct,2018",
+        when:"Apr. 2020~",
       },
       {
         title:"折り畳み式4D空間試作品の製作",
         url:"/ota.gif",
         category:"展示品製作/納品",
-        detail:"Apo110は、展開収納が可能なため、輸送がしやすく、施工を非常に簡易な体験ブースである。複数の機能の設備が埋め込まれており、設備を取り換えることで様々な空間を演出することができる。映像を流しながら、温度や匂いを制御することが可能なので、リアルな体験を提供できる。",
+        detail:"展開収納が可能なため、輸送がしやすく、施工を非常に簡易な体験ブースである。複数の機能の設備が埋め込まれており、設備を取り換えることで様々な空間を演出することができる。映像を流しながら、温度や匂いを制御することが可能なので、映像の中にいるようなリアルな体験を提供することができる。",
         company:"OUTSENSE 協業企業募集中",
-        when:"June,2018",
+        when:"Mar. 2020",
       },
       {
         title:"折り畳みベット設計、試作品製作",
         url:"/bed.gif",
         category:"研究開発受託/試作品/納品",
-        detail:"コロナ禍においてベット需要の高まりを感じている中で、大田区内企業様から折り畳み式のベットの開発談を受け、市場調査、設計、試作を行った。コロナ対策を施したベットということで、床からの座面を高めに設定し、抗菌材料、軽量化などを検討し、設計に落とし込んだ。",
+        detail:"コロナ禍においてベット需要の高まりを感じている中で、大田区内企業様から折り畳み式のベットの開発相談を受け、市場調査、設計、試作を行った。コロナ対策を施したベットということで、床からの座面を高めに設定し、抗菌材料、軽量化などを検討し、設計に落とし込んだ。",
         company:"品川測器",
-        when:"June,2018",
+        when:"Apr. 2020",
       },
       {
         title:"発泡式即時展開構造物",
@@ -131,7 +128,7 @@ export default builder()
         category:"試作品/製作",
         detail:"アニメ「ドラゴンボール」に出てくる「ほいぽいカプセル」を連想させる発泡式の即時展開構造物の研究開発を行っている。布とパネルを張り合わせ折り曲がる部分を作り、折り畳み可能なドーム形状を製作する。ウレタン注入後、発泡し展開が行われ、硬化すると構造物として自立する。",
         company:"OUTSENSE 協業企業募集中",
-        when:"June,2018",
+        when:"Mar. 2020~",
       },
       {
         title:"kuRage",
@@ -139,7 +136,7 @@ export default builder()
         category:"自社製品開発",
         detail:"空間を折りたたみ式の構造物を用いて展開/収納できるようにすることによって、空間が持つ機能を瞬時に切り替えることを可能にする。これによりコワーキングスペースや企業内のオープンスペース化によって、プライベートな作業を行うための空間が少ないという課題解決を行う。",
         company:"OUTSENSE",
-        when:"June,2018",
+        when:"Aug. 2019~",
       },
       {
         title:"アウトドア施設（キャンプ）",
@@ -147,7 +144,7 @@ export default builder()
         category:"自社アイデア/試作開発",
         detail:"床の形状を変化させることによって空間を作ったり、椅子を創出したり、子供たちの遊び場を設けたりと様々な用途での利用ができる備え付けアウトドア施設を提供する。",
         company:"OUTSENSE 協業企業募集中",
-        when:"June,2018",
+        when:"May. 2019~",
       },
       {
         title:"折り紙パーティション",
@@ -155,7 +152,7 @@ export default builder()
         category:"自社アイデア",
         detail:"デザイン性、収納性に優れた、折りを用いたパーティションの制作を検討している。展開収納の比率を変えることによって、高さや幅の調整が、変更することができるため、時と場合によって空間を使い分けることができる。",
         company:"OUTSENSE 協業企業募集中",
-        when:"June,2018",
+        when:"Oct. 2019~",
       },
       {
         title:"植物工場間引き自動化折り機構",
@@ -163,15 +160,15 @@ export default builder()
         category:"自社アイデア/試作開発",
         detail:"単純な折りの機構を用いることで、間引きの作業を簡易化する方法の研究開発を行っている。植物の成長スピードに合わせながらパネルが展開し、間隔を広げることで、植え替えの工数が省けるため、人件費や設備費が削減できる、ほか、パレットの取り外しも楽なため、清掃にかかる作業も減らすことが期待できる。",
         company:"OUTSENSE 協業企業募集中",
-        when:"June,2018",
+        when:"Oct. 2019~",
       },
       {
         title:"反響を制御する折り紙壁",
         url:"/oto.jpg",
         category:"自社アイデア/試作開発",
-        detail:"3次元筒状剛体展開構造物の小型模型",
+        detail:"折りの幾何学的なパターンを用いることで、当たった音を均一に拡散させることができ、音場に統一感を与えることができると考えている。吸音材を用いるとエネルギーを吸収してしまうが、折りのパネルを用いれば、臨場感を失わらずに音を響かせることができると考えている。",
         company:"OUTSENSE 協業企業募集中",
-        when:"June,2018",
+        when:"Dec. 2019~",
       },
     ];
     return {contents}
@@ -192,7 +189,7 @@ body.bodyp
   background-color: white
   overflow-x: hidden
   overflow-y: scroll
-h3 
+.h3p
   margin-top: 10%
   font-size: 4vmax
   font-weight: bold
