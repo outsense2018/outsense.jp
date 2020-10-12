@@ -24,7 +24,11 @@
     <div id="footer">
       <footer>
         <hr>
-        <p>©2018- OUTSENSE inc.</p>
+        <p>
+          <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
+          <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
+          <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
+        </p>
       </footer>
     </div>  
   </div>
@@ -81,7 +85,7 @@ body.bodyh
   font-family: "Arial Black"
   text-align: left
   margin-bottom: 5%
-  margin-top: 0
+  margin-top: -2%
 .doch
   font-size: 1vmax
   font-family: "ヒラギノ角ゴシック"

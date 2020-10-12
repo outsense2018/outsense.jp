@@ -3,7 +3,7 @@
     <global-nav-bar></global-nav-bar>
     <b-row id="left">
       <b-col cols="6" style="padding-left:0">
-        <img src="@/assets/top.jpg" alt="設備1" style="width:48vw;height:35vw" align=left />
+        <img src="@/assets/spacetop.jpg" alt="月面基地" style="height:35vw;" align=left />
       </b-col>
       <b-col cols="6" style="padding-left:3vw;margin-top:0;padding-right:4vw">
         <div id="doc">
@@ -24,7 +24,11 @@
     <div id="footer">
       <footer>
         <hr>
-        <p>©2018- OUTSENSE inc.</p>
+        <p>
+          <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
+          <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
+          <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
+        </p>
       </footer>
     </div>
   </div>

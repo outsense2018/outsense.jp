@@ -42,11 +42,14 @@ export default {
     setTimeout(() => { this.showearth = true }, 1500 )
     setTimeout(() => { this.showlogo = true }, 2700 )
   },
+  mounted() {
+    document.body.className = 'bodytop';
+  },
 }
 </script>
 
 <style lang="sass">
-#bg-top
+body.bodytop
   background-color: black
   width: 100%
   height: 100vw

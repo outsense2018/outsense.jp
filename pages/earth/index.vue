@@ -9,25 +9,25 @@
         </div>
       </b-col>
       <b-col align=left cols="8" style="padding-left:3vw;margin-top:0">
-        <p class="pe">折り紙を研究していく中で、折り紙構造物の可能性を強く感じ、宇宙だけでなく、地上での折り紙産業の創出を目指し、地上での利用を目指した技術開発も行なっております。</p>
+        <p class="pe">折り技術と産業技術との掛け合わせに魅力を見出し、様々な分野の企業様との新規事業創出を行っております。折り技術とあなたの技術の持つ可能性を考えてみませんか？</p>
       </b-col>
     </b-row>
-    <u><p class="case">{{"Case1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"}}</p></u>
-    <p style="font-family:'ヒラギノ角ゴシック';font-size:1vmax">折り技術コンサルタント / 新規事業開発支援</p>
+    <u><p class="case">{{"Case1.&nbsp;新規事業創出サポート&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"}}</p></u>
+    <p style="font-family:'ヒラギノ角ゴシック';font-size:1vmax;font-weight:bold">折り技術コンサルタント / 新規事業開発支援</p>
     <div class="explaine">
-      <p>企業様の得意とする技術と弊社の折り技術を活かした新事業創出/新製品開発のアイデアの提供を行います。</p>
-      <p>製造/研究の技術ノウハウをお持ちで、自社での製品開発を行える企業様におすすめのプランです。</p>
+      <p>クライアント企業様の技術と弊社の折り技術を掛け合わせることで、新規事業創出/新製品開発のご提供を行います。</p>
+      <p>具体的なアイデアはないが、自社技術に新しい付加価値を付けたい、新商品を開発したい企業様におすすめのプランです。</p>
       <p>例）一緒に新規事業を考えてほしい/他企業とは何か違う面白いサービス・製品が欲しい/折りの技術で何ができるのか確かめたい</p>
     </div>
-    <div align=left><img class="imge1" src="@/assets/top.jpg" alt="image"/></div>
-    <u><p class="case">{{"Case2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"}}</p></u>
-    <p style="font-family:'ヒラギノ角ゴシック';font-size:1vmax">共同研究開発 / 業務受託（OEM）</p>
+    <div align=left><img class="imge1" src="@/assets/earthcase1.jpg" alt="image"/></div>
+    <u><p class="case">{{"Case2.&nbsp;製品開発/製品課題解決サポート&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"}}</p></u>
+    <p style="font-family:'ヒラギノ角ゴシック';font-size:1vmax;font-weight:bold">共同研究開発/業務受託</p>
     <div class="explaine">
-      <p>企業様の解決したいと考える社会課題、製品課題に対して弊社の折り技術を活かしたソリューションをご提案いたします。</p>
+      <p>企業様の解決したいと考える社会課題、製品課題に対して弊社の折り技術を活かしたアイディアを製品化していきます。</p>
       <p>企画/サービスの立案や営業はできるが、ものづくりのノウハウをお持ちでない企業におすすめのプランです。</p>
-      <p>例）折りを取り入れてこのような製品を製造できないか/製品にこのような課題があり、研究開発を頼めないか/折りの技術/製品を用いたサービスを提供したい</p>
+      <p>例）折り技術を用いて〇〇ような製品を製造できないか/製品に〇〇ような課題があり、研究開発を頼めないか/折りの技術や製品を用いたサービスを提供したい</p>
     </div>
-    <div align=left><img class="imge1" src="@/assets/top.jpg" alt="image"/></div>
+    <div align=left><img class="imge1" src="@/assets/earthcase2.jpg" alt="image"/></div>
     <div align=right>
       <b-button v-for="(content,index) in contents" :key="index"
         style="margin-bottom:3%;margin-left:1%"
@@ -43,15 +43,15 @@
     </div>
     <b-row style="margin-top:2vw">
       <b-col>
-        <div align=left><img class="imge2" src="@/assets/top.jpg" alt="image"/></div>
+        <div align=left><video class="imge2" autoplay muted playsinline loop src="@/assets/expand.mp4" /></div>
       </b-col>
       <b-col align-self="center">
         <div class="explaine2">
-          <p style="font-weight:bold">動きに必要な機構をシンプルにする</p>
+          <p style="font-weight:bold">シンプルながらユニークな動きが機能を生む</p>
           <br>
-          <p>一か所を動かすだけで力が連動し全体が動く </p>
-          <p>折り目に沿った一定の動きで制御が容易</p>
-          <p style="font-weight:bold">決まった形から決まった形へ形状が変化する</p>
+          <p>一か所を動かすだけで力が連動し全体が動く。</p>
+          <p>形の変化を利用することにより、</p>
+          <p style="font-weight:bold">複数の機能を組み合わせる</p>
         </div>
       </b-col>
     </b-row>
@@ -68,12 +68,18 @@
             </div>
           </b-col>
           <b-col cols="6" style="margin-right:1vw">
-            <p style="margin-top:1vw">{{chara.title}}</p>
+            <p style="margin-top:1vw;font-weight:bold;font-size:1.2vmax">{{chara.title}}</p>
             <hr>
             <ul>
-              <li>{{chara.detal1}}</li>
-              <li>{{chara.detal2}}</li>
-              <li v-if="index==2">{{chara.detal3}}</li>
+              <li>{{chara.frase}}</li>
+              <br>
+              <li>応用用途例
+                <ul>
+                  <li>{{chara.detal1}}</li>
+                  <li>{{chara.detal2}}</li>
+                  <li v-if="index==3">{{chara.detal3}}</li>
+                </ul>  
+              </li>
             </ul>
           </b-col>
         </b-row>
@@ -93,13 +99,17 @@
       <span style="margin-left:0.7vw;">VIDEOS</span>
     </div>
     <b-row cols="4" >
-      <b-col><iframe src="https://www.youtube.com/embed/KbSF0BoPO08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
-      <b-col><iframe src="https://www.youtube.com/embed/KbSF0BoPO08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
-      <b-col><iframe src="https://www.youtube.com/embed/KbSF0BoPO08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
-      <b-col><iframe src="https://www.youtube.com/embed/KbSF0BoPO08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
+      <b-col><video class="vid2" muted playsinline src="@/assets/demo.mp4" controls /></b-col>
+      <b-col><video class="vid2" muted playsinline src="@/assets/moving.mp4" controls /></b-col>
+      <b-col><video class="vid2" muted playsinline src="@/assets/kuRage.mp4" controls /></b-col>
+      <b-col><video class="vid2" muted playsinline src="@/assets/AtoB_sample.mp4" controls /></b-col>
     </b-row>
     <hr>
-    <p id="footere">©2018- OUTSENSE inc.</p>
+    <p id="footere">
+      <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
+      <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
+      <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
+    </p>
   </div>
 </template>
 
@@ -121,28 +131,32 @@ export default builder()
     const charas = [
       { 
         img:"/costcut.jpg", 
-        title:"省コスト化",
-        detal1:"単純化によるコストカット効果",
-        detal2:"パーツの連結化により組み立て/施工が容易になるコストカット効果" 
+        title:"収納性",
+        frase:"コンパクトに折り畳み",
+        detal1:"輸送物",
+        detal2:"仮設住居" 
       },
       { 
         img:"/tuiju.jpg", 
-        title:"変形追従性",
-        detal1:"折り目に沿った一定の動きで制御が容易",
-        detal2:"力に対する動きのレスポンスが早い" 
+        title:"柔軟性",
+        frase:"柔らかさの調整",
+        detal1:"スプリング機構",
+        detal2:"クッション材" 
       },
       { 
         img:"/kinou.jpg", 
-        title:"機能付与",
-        detal1:"折り目を入れ動きを制御することで、機能を付与することができる",
-        detal2:"流体(液体、気体)/強度/反射(熱、光)の制御" ,
-        detal3:"動きの付与（展開収納、スプリング、回転）" ,
+        title:"構造強度",
+        frase:"折り目による構造強度の強化",
+        detal1:"屋根",
+        detal2:"耐圧容器",
       },
       { 
         img:"/design.jpg", 
         title:"デザイン性",
-        detal1:"幾何学的なシンプルさが生み出す見た目の良さ",
-        detal2:"動きの面白さ" ,
+        frase:"幾何学的な折りのデザイン",
+        detal1:"ブースデザイン",
+        detal2:"家具" ,
+        detal3:"照明器具" ,
       },
     ];
     return { contents, charas }
@@ -179,7 +193,7 @@ body.bodye
 .service
   background-color: black
   height: 3vw
-  font-family: "Arial"
+  font-family: "Arial Black"
   color: white
   font-size: 2vmax
 .pe
@@ -190,7 +204,7 @@ body.bodye
   font-weight: bold
   font-family: "Arial"
   letter-spacing: 0.2vmax
-  margin-bottom: 0.5vw
+  margin-bottom: 0
 .explaine
   margin-left: 1vw
   p
@@ -205,12 +219,14 @@ body.bodye
     margin: 0
 .imge1
   margin-top: 2vw
-  height: 40vw
   width: 80vw
   margin-bottom: 2vw
 .imge2
   height: 20vw
   width: 37vw
+.vid2
+  height: 12vw
+  width: 21vw
 .tecChara
   font-family: "ヒラギノ角ゴシック"
   margin-bottom: 2vw

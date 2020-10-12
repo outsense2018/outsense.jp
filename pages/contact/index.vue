@@ -27,6 +27,7 @@
         <div class="doc">
           <p>社名：株式会社OUTSENSE / OUTSENSE Inc.</p>
           <p>住所：東京都大田区本羽田2-7-1-204</p>
+          <p>最寄り駅：京浜急行線「糀谷駅」より徒歩10分</p>
           <p>電話番号：03-6715-1672</p>
           <p>定休日：水曜日</p>
         </div>
@@ -36,7 +37,11 @@
     <div id="footer">
       <footer>
         <hr>
-        <p>©2018- OUTSENSE inc.</p>
+        <p>
+          <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
+          <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
+          <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
+        </p>
       </footer>
     </div>  
   </div>
@@ -86,7 +91,7 @@ body.bodyca
 .ggmap
   position: relative
   padding-bottom: 56.25%
-  margin-top: 2vw
+  margin-top: 1vw
   height: 0
   overflow: hidden
   iframe,object,embed

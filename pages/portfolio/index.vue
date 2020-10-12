@@ -27,7 +27,11 @@
       </router-link>
     </div>
     <hr>
-    <p id="footerp">©2018- OUTSENSE inc.</p>
+    <p id="footerp">
+      <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
+      <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
+      <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
+    </p>
   </div>
 </template>
 
@@ -47,7 +51,7 @@ export default builder()
         url:"/deroito.jpg",
         category:"展示品制作/納品",
         detail:"宇宙での居住施設構築を目指す当社展開構造物の1/20模型を納品した。デロイト様のGreenhouseというイノベーション創発施設にて展示されている。",
-        company:"デロイトトーマツ",
+        company:"デロイトトーマツ様",
         when:"May. 2018",
       },
       {
@@ -55,7 +59,7 @@ export default builder()
         url:"/sorabatake.jpg",
         category:"宇宙建築コンサルティング業務",
         detail:"宇宙居住の知識を理解するための小冊子の作成におけて、弊社は、宇宙建築の分野の知識提供、WSの企画、運営、最終成果物となる小冊子をつくる際のアドバイザー業務等を担当した。",
-        company:"Panasonic＋soranome",
+        company:"Panasonic様＋soranome様",
         when:"Mar. 2019",
       },
       {
@@ -63,7 +67,7 @@ export default builder()
         url:"/dnp.gif",
         category:"展示品製作/図面納品",
         detail:"Jwave様のイベント内においてDNP様が担当されていたブース壁面の装飾を行い、壁面の凹凸の再現と2m×6mの壁面を2m×0.5m程度に収納し輸送する事ができるように設計した。また、DNP様企業内展示会では、アーチ、机、オブジェクトなどの製作も行った。",
-        company:"大日本印刷",
+        company:"大日本印刷様",
         when:"Sep. 2019",
       },
       {
@@ -71,7 +75,7 @@ export default builder()
         url:"/sakase.jpg",
         category:"試作品製作/施工提案",
         detail:"サカセアドテック様の三軸織の材料を用いた、ドーム形状の設計提案、プロトタイプの作成、製品化した際の施工提案を行った。ドーム形状製作する際には、形状を保持するために、型枠を使用していたが、弊社は、曲面織を用い、1枚の平面形状からドーム形状を作ることを可能にした。",
-        company:"サカセアドテック",
+        company:"サカセアドテック様",
         when:"Sep. 2019",
       },
       {
@@ -79,7 +83,7 @@ export default builder()
         url:"/buri.jpg",
         category:"試作品製作/納品・試作品図面納品",
         detail:"展開収納することができる変形可能なタイヤの設計提案、および、試作物の作成、試作物の図面の提供を行った。折りのパターンにより、部位における強度の変化も可能である。",
-        company:"ブリヂストン社",
+        company:"ブリヂストン様",
         when:"Nov. 2019",
       },
       {
@@ -87,7 +91,7 @@ export default builder()
         url:"/ihi.gif",
         category:"試作品製作/納品・試作品図面納品",
         detail:"平面に折り畳まれた状態から2mの高さまで展開する6角形の角柱を製作した。折り目を付与することによって、決まった形に変化する再現性のある収納展開が期待できる。",
-        company:"大手企業様",
+        company:"大手重工メーカー様",
         when:"Feb. 2020",
       },
       {
@@ -103,7 +107,7 @@ export default builder()
         url:"/misawa.jpg",
         category:"共同研究開発",
         detail:"建材メーカー企業様が自社製品開発を行う際に折り紙の技術に着目されており、折り紙の専門知識をもつ弊社にコンサルティングを依頼していただいた。家具/建材で生活空間にイノベーションを創出するようなプロダクト開発を目指している。",
-        company:"LIXIL",
+        company:"LIXIL様",
         when:"Apr. 2020~",
       },
       {
@@ -119,7 +123,7 @@ export default builder()
         url:"/bed.gif",
         category:"研究開発受託/試作品/納品",
         detail:"コロナ禍においてベット需要の高まりを感じている中で、大田区内企業様から折り畳み式のベットの開発相談を受け、市場調査、設計、試作を行った。コロナ対策を施したベットということで、床からの座面を高めに設定し、抗菌材料、軽量化などを検討し、設計に落とし込んだ。",
-        company:"品川測器",
+        company:"測定機器メーカー様",
         when:"Apr. 2020",
       },
       {
@@ -212,7 +216,7 @@ body.bodyp
   width: 21vw
   height: 14vw
 #title
-  font-size: 1vmax
+  font-size: 1.1vmax
   font-weight: bold
   margin-bottom: 2vw
 #category

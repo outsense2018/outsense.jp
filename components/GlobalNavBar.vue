@@ -7,6 +7,10 @@
           <template v-slot:button-content>
             <img src="@/assets/menuicon.png" style="height:3vw"/>
           </template>
+          <b-dropdown-item to="/news">
+            News
+          </b-dropdown-item>
+          <b-dropdown-divider />
           <b-dropdown-item to="/vision">
             Vision
           </b-dropdown-item>
@@ -36,11 +40,11 @@
           </b-dropdown-item>
           <b-dropdown-divider />
           <b-dropdown-item to="/earth">
-            Business on the Earth
+            Business(Earth)
           </b-dropdown-item>
           <b-dropdown-divider />
           <b-dropdown-item to="/space">
-            Business on the Moon
+            Business(Space)
           </b-dropdown-item>
         </b-dropdown>
       </b-container>
