@@ -51,23 +51,19 @@
       <span style="margin-left:0.7vw">SPACE ROADMAP</span>
     </div>
     <div align=left><img style="width:80vw;margin-top:2vw" src="@/assets/future.PNG" alt="image"/></div>
-    <hr>
-    <p id="footers">
-      <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
-      <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
-      <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
-    </p>
+    <Lfoot />
   </div>
 </template>
 
 <script lang="ts">
 import GlobalNavBar from '@/components/GlobalNavBar.vue';
+import Lfoot from '@/components/LongFooter.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
 import { BIcon, BIconPlayFill, BIconCapslock, BIconChevronDoubleUp } from 'bootstrap-vue'
 
 export default builder()
-.withComponents({ GlobalNavBar, BIcon, BIconPlayFill, BIconCapslock, BIconChevronDoubleUp })
+.withComponents({ GlobalNavBar, Lfoot, BIcon, BIconPlayFill, BIconCapslock, BIconChevronDoubleUp })
 .withData({
   data() {
     return { }
@@ -123,10 +119,4 @@ body.bodys
 .vid2
   height: 12vw
   width: 21vw
-#footers
-  font-color: black
-  padding-top: 0.5vw
-  font-size: 0.8vmax
-  text-align: right
-  font-family: "Arial"
 </style>

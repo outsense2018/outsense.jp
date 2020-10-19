@@ -15,6 +15,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  server: {
+    port: 8000, // デフォルト: 3000
+    host: '0.0.0.0' // デフォルト: localhost
+  },
   /*
   ** Customize the progress-bar color
   */

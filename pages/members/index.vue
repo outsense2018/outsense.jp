@@ -16,26 +16,18 @@
        </b-row>
       </figcaption>
     </figure>          
-    <div id="footer">
-      <footer>
-        <p>
-          <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
-          <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
-          <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
-        </p>
-      </footer>
-    </div>  
+  <Foot />
   </div>
 </template>
 
 <script lang="ts">
 import GlobalNavBar from '@/components/GlobalNavBar.vue';
+import Foot from '@/components/GlobalFooter.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
-import Icon from '@/components/Icon.vue';
 
 export default builder()
-.withComponents({ Icon, GlobalNavBar })
+.withComponents({ GlobalNavBar, Foot })
 .withData({
   data() {
     const contents = [
@@ -90,16 +82,4 @@ figure
   .mem
     p 
       margin: 0
-#footer
-  width: 100vw
-  position: absolute
-  bottom: 0
-  right: 0
-  padding-right: 3vw
-  padding-left: 3vw
-  font-color: black
-  padding-top: 0.5vw
-  font-size: 0.8vmax
-  font-family: "Arial"
-  text-align: right
 </style>

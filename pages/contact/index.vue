@@ -34,27 +34,18 @@
         <div class="ggmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.2310078324463!2d139.72772541523085!3d35.5479965802256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860e231b7ba35%3A0x85835e7f18504280!2z44CSMTQ0LTAwNDQg5p2x5Lqs6YO95aSn55Sw5Yy65pys576955Sw77yS5LiB55uu77yX4oiS77yR!5e0!3m2!1sja!2sjp!4v1600670904472!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
       </b-col>
     </b-row>
-    <div id="footer">
-      <footer>
-        <hr>
-        <p>
-          <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
-          <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
-          <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
-        </p>
-      </footer>
-    </div>  
+    <Foot />
   </div>
 </template>
 
 <script lang="ts">
 import GlobalNavBar from '@/components/GlobalNavBar.vue';
+import Foot from '@/components/GlobalFooter.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
-import Icon from '@/components/Icon.vue';
 
 export default builder()
-.withComponents({ Icon, GlobalNavBar })
+.withComponents({ GlobalNavBar, Foot })
 .withData({
   data() {
     return {}
@@ -116,16 +107,4 @@ body.bodyca
   background-color: white
   color: black
   margin: 10%
-#footer
-  width: 100vw
-  position: absolute
-  bottom: 0
-  right: 0
-  padding-right: 3vw
-  padding-left: 3vw
-  font-color: black
-  padding-top: 0.5vw
-  font-size: 0.8vmax
-  font-family: "Arial"
-  text-align: right
 </style>

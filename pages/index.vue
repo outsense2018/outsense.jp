@@ -20,10 +20,9 @@
   </div>
 </template>
 
-<script> 
+<script>
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
-import Icon from '@/components/Icon.vue';
 
 export default {
   data() {
@@ -32,9 +31,6 @@ export default {
       showlogo: false,
       showearth: false,
     };
-  },
-  components: {
-    Icon
   },
   created() {
     this.show = false;

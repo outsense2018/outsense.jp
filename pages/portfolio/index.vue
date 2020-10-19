@@ -26,23 +26,19 @@
         </b-button>
       </router-link>
     </div>
-    <hr>
-    <p id="footerp">
-      <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
-      <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
-      <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
-    </p>
+    <Lfoot />
   </div>
 </template>
 
 <script lang="ts">
 import GlobalNavBar from '@/components/GlobalNavBar.vue';
+import Lfoot from '@/components/LongFooter.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
 import { BIcon, BIconPlayFill } from 'bootstrap-vue'
 
 export default builder()
-.withComponents({ GlobalNavBar, BIcon, BIconPlayFill })
+.withComponents({ GlobalNavBar, Lfoot, BIcon, BIconPlayFill })
 .withData({
   data() {
     const contents = [
@@ -235,10 +231,4 @@ body.bodyp
   text-align: center
   p
     margin: 1px
-#footerp
-  font-color: black
-  padding-top: 0.5vw
-  font-size: 0.8vmax
-  text-align: right
-  font-family: "Arial"
 </style>

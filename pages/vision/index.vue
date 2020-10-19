@@ -9,7 +9,7 @@
         <div id="doc">
           <h3 class="h3v">Vision</h3>
           <div id="change">
-            <span>日本語</span><span>｜</span><span>ENGLISH</span>
+            <span>日本語</span><span>｜</span><span style="color:grey">ENGLISH</span>
           </div>
           <p class="pv">月面に住めないという常識を抜け出し月面に人が暮らす時代をつくること。</p>
           <p class="pv">私たちは世の中の常識を抜け出し社会をアップデートすることを目指しています。</p>
@@ -25,7 +25,7 @@
       <footer>
         <hr>
         <p>
-          <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
+          <a href="https://twitter.com/teamOUTSENSE"><img style="height:1.5vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
           <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
           <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
         </p>
@@ -38,10 +38,9 @@
 import GlobalNavBar from '@/components/GlobalNavBar.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
-import Icon from '@/components/Icon.vue';
 
 export default builder()
-.withComponents({ Icon, GlobalNavBar })
+.withComponents({ GlobalNavBar })
 .withData({
   data() {
     return {}
@@ -93,16 +92,4 @@ body.bodyv
     font-family: "ヒラギノ角ゴシック"
     margin: 0.5vmax
   height: 8vw
-#footer
-  width: 100vw
-  position: absolute
-  bottom: 0
-  right: 0
-  padding-right: 3vw
-  padding-left: 3vw
-  font-color: black
-  padding-top: 0.5vw
-  font-size: 0.8vmax
-  font-family: "Arial"
-  text-align: right
 </style>

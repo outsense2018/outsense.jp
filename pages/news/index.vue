@@ -18,37 +18,34 @@
               style="margin-bottom:3%;margin-left:1%"
               size="sm"
               squared variant="outline-secondary"
-              :href="content.url">
+              :href="content.url"
+              target="_blank" rel="noopener noreferrer">
               <span style="font-family:'Arial';margin-left:0.5vw;">DETAIL<b-icon-chevron-right style="margin-left:0.5vw"/></span>
             </b-button>
           </div>
         </b-col>
       </b-row>
     </div>
-    <hr>
-    <p id="footern">
-      <a href="https://twitter.com/teamOUTSENSE"><img style="height:2.2vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
-      <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
-      <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
-    </p>
+    <Lfoot />
   </div>
 </template>
 
 <script lang="ts">
 import GlobalNavBar from '@/components/GlobalNavBar.vue';
+import Lfoot from '@/components/LongFooter.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
 import { BIcon, BIconChevronRight } from 'bootstrap-vue'
 
 export default builder()
-.withComponents({ GlobalNavBar, BIcon, BIconChevronRight })
+.withComponents({ GlobalNavBar, Lfoot, BIcon, BIconChevronRight })
 .withData({
   data() {
     const contents = [
       {
         day:"18 Oct, 2020",
         title:"事務所を東京都大田区本羽田に移転しました！",
-        url:"https://goo.gl/maps/VcMsiLkdRWZzzU1F9",
+        url:"https://goo.gl/maps/v3WgnLDkdLK2WkeW9",
       },
       {
         day:"19 Dec, 2019",
@@ -113,11 +110,4 @@ body.bodyn
     margin-top: 0.5vw
     margin-bottom: 3vw
     padding-bottom: 3vw
-#footern
-  font-color: black
-  padding-top: 0.5vw
-  font-size: 0.8vmax
-  text-align: right
-  
-  font-family: "Arial"
 </style>

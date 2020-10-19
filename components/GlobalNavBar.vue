@@ -55,11 +55,9 @@
 <script lang="ts">
 import builder from '@/assets/ts/vue-builder';
 import Vue from 'vue';
-import Icon from '@/components/Icon.vue';
 import _ from 'lodash';
 
 export default builder()
-.withComponents({ Icon })
 .withData({
   data() {
     return {}
