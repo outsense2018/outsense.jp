@@ -5,8 +5,8 @@
     <b-row>
       <b-col cols="6" class="border-right" style="border-right;padding-right:5vw">
         <div class="doc">
-          <p>弊社サービス/商品に関するお問い合わせ</p>
-          <p>取材に関するお問い合わせ等は、</p>
+          <p>弊社サービス/商品に関するお問い合わせ、</p>
+          <p>アルバイト/採用に関するお問い合わせ、取材に関するお問い合わせ等は、</p>
           <p>こちらのフォーム、または、電話よりお問い合わせください。</p>
         </div>
         <div class="gform">
@@ -19,13 +19,13 @@
             <input id="email" type="text" name="entry.790185578" placeholder="example@mail.co.jp　※返信時に利用します。お間違えのないようご注意ください" required><br>
             <label for="msg">お問合せ内容 <span style="color:red">必須</span></label><br>
             <textarea id="msg" name="entry.149388788" placeholder="お問合せ内容をご記入ください。" required></textarea><br>
-            <b-button type="submit" value="送信" style="background-color:orange" size="sm">送信</b-button>
+            <b-button type="submit" value="送信" style="background-color:orange;" size="sm"><span style="font-size:0.8vmax">送信</span></b-button>
           </form>
         </div>
       </b-col>
       <b-col cols="6" style="padding-left:3vw;margin-top:0">
         <div class="doc">
-          <p>社名：株式会社OUTSENSE / OUTSENSE Inc.</p>
+          <p>社名：株式会社OUTSENSE / OUTSENSE inc.</p>
           <p>住所：東京都大田区本羽田2-7-1-204</p>
           <p>最寄り駅：京浜急行線「糀谷駅」より徒歩10分</p>
           <p>電話番号：03-6715-1672</p>

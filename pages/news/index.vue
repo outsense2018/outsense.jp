@@ -9,18 +9,17 @@
             {{content.day}}
           </span>
         </b-col>
-        <b-col cols="8" style="font-weight:bold">
+        <b-col cols="7" style="font-weight:bold">
           {{content.title}}
         </b-col>
-        <b-col cols="2">
+        <b-col cols="3">
           <div align=right>
             <b-button
-              style="margin-bottom:3%;margin-left:1%"
               size="sm"
               squared variant="outline-secondary"
               :href="content.url"
               target="_blank" rel="noopener noreferrer">
-              <span style="font-family:'Arial';margin-left:0.5vw;">DETAIL<b-icon-chevron-right style="margin-left:0.5vw"/></span>
+              <span style="font-family:'Arial';margin-left:0.5vw;font-size:1vmax">DETAIL<b-icon-chevron-right style="margin-left:0.5vw;"/></span>
             </b-button>
           </div>
         </b-col>
@@ -48,7 +47,7 @@ export default builder()
         url:"https://goo.gl/maps/v3WgnLDkdLK2WkeW9",
       },
       {
-        day:"19 Dec, 2019",
+        day:"09 Dec, 2019",
         title:"フィリピンで行われた「Hyper Interdisciplinary Conference」にてベストプレゼンター賞をいただきました！",
         url:"https://global.lne.st/news/jp/2019/12/09/hicph-report/?fbclid=IwAR3MGOUsFDQcIcJSzHL5BnoFZiDv8Uq71UHXKOq9NXEHsHgQcYsdwvX7zMI",
       },

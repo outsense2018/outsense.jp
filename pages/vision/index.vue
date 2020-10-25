@@ -1,5 +1,5 @@
 <template>
-  <div id="bg">
+  <div class="bgv">
     <global-nav-bar></global-nav-bar>
     <b-row id="left">
       <b-col cols="6" style="padding-left:0">
@@ -12,35 +12,29 @@
             <span>日本語</span><span>｜</span><span style="color:grey">ENGLISH</span>
           </div>
           <p class="pv">月面に住めないという常識を抜け出し月面に人が暮らす時代をつくること。</p>
-          <p class="pv">私たちは世の中の常識を抜け出し社会をアップデートすることを目指しています。</p>
           <br>
+          <p class="pv">私たちは世の中の常識を抜け出し社会をアップデートすることを目指しています。</p>
           <p class="pv">私たちは宇宙建築というマニアックな学術分野に興味を持った学生の集まりから始まりました。宇宙に興味を持ったきっかけは、純粋な憧れ、特殊なフィールドとしての興味、ガンダム等の作品であったりと様々。ですが、強く共通していたのは人の未来を変える可能性を宇宙に感じていたことでした。</p>
           <p class="pv">私たちはその想いの根源がどこにあるのかを語り合い、「宇宙には現在の常識を抜け出す力がある」という結論を得ました。いま、宇宙開発の潮流が目まぐるしく変わる中で、人類は大きな分岐点に立っています。</p>
+          <br>
           <p class="pv">「地球を抜け出し宇宙に進むことで、人類の可能性を広げたい。」</p>
+          <br>
           <p class="pv">この想いを人生をかけてでも実現したいという「変わり者たち」によってOUTSENSEが作られました。</p>
         </div>
       </b-col>          
     </b-row>
-    <div id="footer">
-      <footer>
-        <hr>
-        <p>
-          <a href="https://twitter.com/teamOUTSENSE"><img style="height:1.5vw;margin-right:1vw" src="@/assets/Twitter_Logo_B.png" alt="ロゴ"  /></a>
-          <a href="https://www.facebook.com/teamOUTSENSE/"><img style="height:1.5vw;margin-right:1.2vw" src="@/assets/f_logo_Blue.png" alt="ロゴ"  /></a>
-          <span style="vertical-align:middle">©2018- OUTSENSE inc.</span>
-        </p>
-      </footer>
-    </div>
+    <Foot />
   </div>
 </template>
 
 <script lang="ts">
 import GlobalNavBar from '@/components/GlobalNavBar.vue';
+import Foot from '@/components/GlobalFooter.vue';
 import builder from '@/assets/ts/vue-builder';
 import _ from 'lodash';
 
 export default builder()
-.withComponents({ GlobalNavBar })
+.withComponents({ GlobalNavBar, Foot })
 .withData({
   data() {
     return {}
@@ -68,7 +62,7 @@ body.bodyv
   text-align: left
   margin-bottom: 5%
   margin-top: 0
-#bg
+.bgv
   background-color: white
   color: black
   width: 80vw
@@ -84,7 +78,7 @@ body.bodyv
   span
     font-size: 1vmax
     font-family: "ヒラギノ角ゴシック"
-  margin: 1vmax 1vmax 3vmax 1vmax
+  margin: 1vw 1vw 2vw 1vw
 #doc
   .pv
     font-weight: bold

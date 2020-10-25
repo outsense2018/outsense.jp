@@ -3,18 +3,7 @@
     <global-nav-bar></global-nav-bar>
     <h3 class="h3me">Members</h3>
     <figure align=center>
-      <img src="@/assets/members.jpg" alt="集合写真" style="width:75%"/>
-      <figcaption>
-       <b-row style="width:65%"> 
-        <b-col v-for="(content,index) in contents" :key="index" cols="2" id="item" align-self="end">
-          <b-row cols="1" class="mem" align-v="end">
-            <b-col><u><p style="font-weight:bold">{{content.name}}</p></u></b-col>
-            <b-col><p style="font-weight:bold">{{content.alpha}}</p></b-col>
-            <b-col><p>{{content.job}}</p></b-col>
-          </b-row>
-        </b-col>
-       </b-row>
-      </figcaption>
+      <img src="@/assets/members.jpg" alt="集合写真" style="width:70%"/>
     </figure>          
   <Foot />
   </div>
@@ -61,7 +50,7 @@ body.bodym
   font-weight: bold
   font-family: "Arial Black"
   margin-left: 12.2%
-  margin-top: 5%
+  margin-top: 6%
   padding-top: 0
 figure
   position: relative

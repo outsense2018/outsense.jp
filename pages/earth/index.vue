@@ -2,7 +2,7 @@
   <div>
     <global-nav-bar></global-nav-bar>
     <h3 class="h3e">ORIGAMI BUSINESS</h3>
-    <b-row>
+    <b-row style="margin-bottom:5%">
       <b-col cols="4">
         <div class="service">
           <span style="margin-left:0.7vw">SERVICES</span>
@@ -19,7 +19,7 @@
       <p>具体的なアイデアはないが、自社技術に新しい付加価値を付けたい、新商品を開発したい企業様におすすめのプランです。</p>
       <p>例）一緒に新規事業を考えてほしい/他企業とは何か違う面白いサービス・製品が欲しい/折りの技術で何ができるのか確かめたい</p>
     </div>
-    <div align=left><img class="imge1" src="@/assets/earthcase1.jpg" alt="image"/></div>
+    <div align=left style="margin-bottom:6vw"><img class="imge1" src="@/assets/earthcase1.jpg" alt="image"/></div>
     <u><p class="case">{{"Case2.&nbsp;製品開発/製品課題解決サポート&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"}}</p></u>
     <p style="font-family:'ヒラギノ角ゴシック';font-size:1vmax;font-weight:bold">共同研究開発/業務受託</p>
     <div class="explaine">
@@ -28,14 +28,14 @@
       <p>例）折り技術を用いて〇〇ような製品を製造できないか/製品に〇〇ような課題があり、研究開発を頼めないか/折りの技術や製品を用いたサービスを提供したい</p>
     </div>
     <div align=left><img class="imge1" src="@/assets/earthcase2.jpg" alt="image"/></div>
-    <div align=right>
-      <b-button v-for="(content,index) in contents" :key="index"
+    <div align=right style="margin-bottom:5vw">
+      <b-button v-for="(content,index) in partContents1" :key="index"
         style="margin-bottom:3%;margin-left:1%"
-        size="md"
+        size="sm"
         squared variant="outline-secondary"
         :to="content.url">
           <b-icon-play-fill></b-icon-play-fill>
-          <span style="font-family:'Arial';margin-left:0.5vw">{{content.page}}</span>
+          <span style="font-family:'Arial';margin-left:0.5vw;font-size:1.5vmax">{{content.page}}</span>
       </b-button>
     </div>
     <div class="service" style="margin-right:60%">
@@ -49,14 +49,14 @@
         <div class="explaine2">
           <p style="font-weight:bold">シンプルながらユニークな動きが機能を生む</p>
           <br>
-          <p>一か所を動かすだけで力が連動し全体が動く。</p>
+          <p>一か所を動かすだけで力が連動し全体が動く</p>
           <p>形の変化を利用することにより、</p>
           <p style="font-weight:bold">複数の機能を組み合わせる</p>
         </div>
       </b-col>
     </b-row>
     <div align=center style="margin:3.5vw">
-      <b-icon-chevron-double-up variant="dark" font-scale="6" flip-v></b-icon-chevron-double-up>
+      <b-icon-chevron-double-up variant="dark" font-scale="5" flip-v></b-icon-chevron-double-up>
     </div>
     <b-row align-v="stretch" class="tecChara">
       <b-col v-for="(chara,index) in charas" :key="index" cols="6" align-self="start">
@@ -70,14 +70,13 @@
           <b-col cols="6" style="margin-right:1vw">
             <p style="margin-top:1vw;font-weight:bold;font-size:1.2vmax">{{chara.title}}</p>
             <hr>
-            <ul>
-              <li>{{chara.frase}}</li>
-              <br>
-              <li>応用用途例
-                <ul>
-                  <li>{{chara.detal1}}</li>
-                  <li>{{chara.detal2}}</li>
-                  <li v-if="index==3">{{chara.detal3}}</li>
+            <ul style="padding-left:2vw;">
+              <li style="font-size:1vmax;margin-bottom:1vw;">{{chara.frase}}</li>
+              <li style="font-size:1vmax">応用例
+                <ul style="padding-left:1vw">
+                  <li style="font-size:0.8vmax">{{chara.detal1}}</li>
+                  <li style="font-size:0.8vmax">{{chara.detal2}}</li>
+                  <li v-if="index==3" style="font-size:0.8vmax">{{chara.detal3}}</li>
                 </ul>  
               </li>
             </ul>
@@ -86,16 +85,16 @@
       </b-col>
     </b-row>
     <div align=right>
-      <b-button v-for="(content,index) in partContents" :key="index"
+      <b-button v-for="(content,index) in partContents2" :key="index"
         style="margin-bottom:3%;margin-left:1%"
-        size="md"
+        size="sm"
         squared variant="outline-secondary"
         :to="content.url">
           <b-icon-play-fill></b-icon-play-fill>
-          <span style="font-family:'Arial';margin-left:0.5vw">{{content.page}}</span>
+          <span style="font-family:'Arial';margin-left:0.5vw;font-size:1.5vmax">{{content.page}}</span>
       </b-button>
     </div>
-    <div class="service" style="margin-right:60%;margin-bottom:2vw">
+    <div class="service" style="margin-right:60%;margin-bottom:2vw;margin-top:4vw">
       <span style="margin-left:0.7vw;">VIDEOS</span>
     </div>
     <b-row cols="4" >
@@ -128,7 +127,7 @@ export default builder()
       { 
         img:"/costcut.jpg", 
         title:"収納性",
-        frase:"コンパクトに折り畳み",
+        frase:"コンパクトな折り畳み",
         detal1:"輸送物",
         detal2:"仮設住居" 
       },
@@ -160,7 +159,10 @@ export default builder()
 })
 .withProperties({
   computed: {
-    partContents() {
+    partContents1() {
+      return this.contents.filter(x => x.page != "Technology" );
+    },
+    partContents2() {
       return this.contents.filter(x => x.page != "Contact" );
     },
   },
@@ -175,7 +177,7 @@ export default builder()
 
 <style lang="sass">
 body.bodye
-  margin: 0px
+  margin-bottom: 0px
   padding: 7%
   background-color: white
   overflow-x: hidden
@@ -183,15 +185,15 @@ body.bodye
 .h3e
   font-size: 3vmax
   font-family: "Arial Black"
-  margin-top: 1%
-  margin-bottom: 2%
+  margin-top: 3%
+  margin-bottom: 6%
   margin-left: -2%
 .service
   background-color: black
   height: 3vw
   font-family: "Arial Black"
   color: white
-  font-size: 2vmax
+  font-size: 2vw
 .pe
   font-weight: bold
   font-size: 1.1vmax
@@ -200,8 +202,10 @@ body.bodye
   font-weight: bold
   font-family: "Arial"
   letter-spacing: 0.2vmax
-  margin-bottom: 0
+  margin-bottom: 1%
 .explaine
+  margin-top: 3vw
+  margin-bottom: 1vw
   margin-left: 1vw
   p
     font-size: 1vmax
@@ -214,8 +218,8 @@ body.bodye
     font-family: "ヒラギノ角ゴシック"
     margin: 0
 .imge1
-  margin-top: 2vw
-  width: 80vw
+  margin-top: 3vw
+  width: 75vw
   margin-bottom: 2vw
 .imge2
   height: 20vw

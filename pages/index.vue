@@ -2,7 +2,7 @@
   <div id="bg-top" align="center">
     <transition name="fade">
       <div class="moon" v-if="showmoon">
-        <router-link to="/space"><img src="@/assets/moon-header7.png" alt="宇宙事業" hover/></router-link>
+        <router-link to="/space"><img src="@/assets/moon-header.png" alt="宇宙事業" hover/></router-link>
       </div>
     </transition>
     <transition name="fade">
@@ -14,7 +14,7 @@
     </transition>
     <transition name="fade">
       <div class="footer_fix_btn" v-if="showearth">
-        <router-link to="/earth"><img src="@/assets/earth-header3.png" alt="地上事業"/></router-link>
+        <router-link to="/earth"><img src="@/assets/earth-header.jpg" alt="地上事業"/></router-link>
       </div>
     </transition>  
   </div>

@@ -25,20 +25,18 @@
         <img class="imge1s" src="@/assets/spaceconcept.gif" alt="image" />
       </b-col>
       <b-col cols="6">
-        <div style="font-size:1vmax;font-family:'ヒラギノ角ゴシック';padding-right:2vw;vertical-align:middle;padding-left:2vw" align-self="center" >
-          <span>私たちが目指すのは３次元展開構造物（折り紙技術）を用いて宇宙空間、特に月面で利用する(有人・無人含めた)施設を折り畳み可能にすることです。​​</span><br>
-          <span>​基本的なコンセプトは輸送物の体積を減らすことによる輸送コストの削減になります。</span><br>
-          <span>類似のコンセプトを持つ技術としてインフレータブル技術が挙げられますが、膜構造であるために挙動の不確定性や構造強度の弱さを持っており、それ単体での月面での運用には不向きと言えます。</span><br>
-          <span>また、3DプリンティングをはじめとするISRU技術が遠隔操作技術等の発展と共に期待を集めていますが、製造環境を整える段階が必要であること、密閉性などの厳密性を担保するハードルが高いことから、初期フェーズでの主軸運用は現実的とは言えません。​</span><br>
+        <div style="font-size:1.2vmax;font-family:'ヒラギノ角ゴシック';padding-right:2vw;vertical-align:middle;padding-left:2vw" align-self="center" >
+          <span>私たちが目指すのは３次元展開構造物（折り紙技術）を用いて宇宙空間、特に月面で利用する(有人・無人含めた)施設を折り畳み可能にすることです。​​</span><br><br>
+          <span>​基本的なコンセプトは輸送物の体積を減らすことによる輸送コストの削減になります。</span><br><br>
           <span>折り紙技術は、数学的に定義された挙動の安定性と、面材を使うことによる構造強度が、宇宙空間での運用において大きな強みを持つため、初期フェーズでの施設構築スピードを加速させ、ひいては月面での様々なビジネスの基盤構築を進めることができます。​</span><br>
         </div>
       </b-col>
     </b-row>
     <div align=center cols="6" style="margin-top:0;margin-bottom:5vw">
       <img style="width:60vw" src="@/assets/sheldimage.png" alt="image" />
-      <p text-align=center style="margin:2vw;font-weight:bold;font-family:'ヒラギノ角ゴシック'">3次元展開構造物 / 居住部内部イメージ</p>
+      <p text-align=center style="margin:2vw;font-weight:bold;font-family:'ヒラギノ角ゴシック';font-size:1.5vw">3次元展開構造物 / 居住部内部イメージ</p>
     </div>
-    <div class="smission" style="width:40vw;margin-bottom:1.5vw">
+    <div class="smission" style="margin-bottom:1.5vw">
       <span style="margin-left:0.7vw">SPACE SERVICES</span>
     </div>
     <p style="font-family:'ヒラギノ角ゴシック';font-size:1.2vmax;font-weight:bold">宇宙ビジネス / 製造コンサルタント</p>
@@ -46,11 +44,11 @@
       <p>宇宙居住に対しての知識提供 / 宇宙ミッションの組み立て / 宇宙の製造ノウハウを活かし、</p>
       <p>事業領域 / 事業規模を問わず、これから宇宙事業に参入していきたいという企業様の新事業創出 / 新製品開発のコンサルティングを行います。</p>  
     </div>
-    <div align=left><img style="width:80vw;margin-top:2vw" src="@/assets/spacebusiness.PNG" alt="image"/></div>
-    <div class="smission" style="width:40vw;margin-bottom:1.5vw;margin-top:5vw">
+    <div align=left><img style="width:80vw;margin-top:2vw" src="@/assets/spacebusiness.jpg" alt="image"/></div>
+    <div class="smission" style="margin-bottom:1.5vw;margin-top:5vw">
       <span style="margin-left:0.7vw">SPACE ROADMAP</span>
     </div>
-    <div align=left><img style="width:80vw;margin-top:2vw" src="@/assets/future.PNG" alt="image"/></div>
+    <div align=left><img style="width:80vw;margin-top:2vw" src="@/assets/future.jpg" alt="image"/></div>
     <Lfoot />
   </div>
 </template>
@@ -100,9 +98,10 @@ body.bodys
 .smission
   background-color: black
   height: 3vw
+  width: 30vw
   font-family: "Arial Black"
   color: white
-  font-size: 2vmax
+  font-size: 2vw
   margin-right: 14vw
 .missiontext
   font-size: 2vmax
