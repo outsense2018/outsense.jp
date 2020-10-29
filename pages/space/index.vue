@@ -2,13 +2,13 @@
   <div>
     <global-nav-bar></global-nav-bar>
     <h3 class="h3s">SPACE BUSINESS</h3>
-    <b-row style="margin-bottom:3vw">
+    <b-row style="margin-bottom:3vw;margin-top:6%">
       <b-col cols="6">
         <div class="smission">
           <span style="margin-left:0.7vw">SPACE MISSION</span>
         </div>
         <div style="margin-top:4vw;margin-bottom:3vw">
-         <span class="missiontext">月面に住めないという常識を抜け出し,</span><br>
+         <span class="missiontext">月面に住めないという常識を抜け出し</span><br>
          <span class="missiontext">月面に人が暮らす時代をつくること</span>
         </div>
         <div style="font-size:1.2vmax;font-family:'ヒラギノ角ゴシック';padding-right:7vw">
@@ -20,11 +20,11 @@
         <img class="imge1s" src="@/assets/spacetop.jpg" alt="image" />
       </b-col>
     </b-row>
-    <b-row style="margin-bottom:5vw">
+    <b-row style="margin-bottom:5vw" align-v="center">
       <b-col align=left cols="6" style="margin-top:0">
         <img class="imge1s" src="@/assets/spaceconcept.gif" alt="image" />
       </b-col>
-      <b-col cols="6">
+      <b-col cols="6" >
         <div style="font-size:1.2vmax;font-family:'ヒラギノ角ゴシック';padding-right:2vw;vertical-align:middle;padding-left:2vw" align-self="center" >
           <span>私たちが目指すのは３次元展開構造物（折り紙技術）を用いて宇宙空間、特に月面で利用する(有人・無人含めた)施設を折り畳み可能にすることです。​​</span><br><br>
           <span>​基本的なコンセプトは輸送物の体積を減らすことによる輸送コストの削減になります。</span><br><br>
@@ -32,19 +32,19 @@
         </div>
       </b-col>
     </b-row>
-    <div align=center cols="6" style="margin-top:0;margin-bottom:5vw">
+    <div align=center cols="6" style="margin-top:0;margin-bottom:3vw">
       <img style="width:60vw" src="@/assets/sheldimage.png" alt="image" />
-      <p text-align=center style="margin:2vw;font-weight:bold;font-family:'ヒラギノ角ゴシック';font-size:1.5vw">3次元展開構造物 / 居住部内部イメージ</p>
+      <p text-align=center style="margin:4vw;font-weight:bold;font-family:'ヒラギノ角ゴシック';font-size:1.2vmax">3次元展開構造物 / 居住部内部イメージ</p>
     </div>
-    <div class="smission" style="margin-bottom:1.5vw">
+    <div class="smission" style="margin-bottom:3.5vw">
       <span style="margin-left:0.7vw">SPACE SERVICES</span>
     </div>
-    <p style="font-family:'ヒラギノ角ゴシック';font-size:1.2vmax;font-weight:bold">宇宙ビジネス / 製造コンサルタント</p>
+    <p style="font-family:'ヒラギノ角ゴシック';font-size:1.4vmax;font-weight:bold;margin-bottom:2vw">宇宙ビジネス / 製造コンサルタント</p>
     <div class="explains">
       <p>宇宙居住に対しての知識提供 / 宇宙ミッションの組み立て / 宇宙の製造ノウハウを活かし、</p>
       <p>事業領域 / 事業規模を問わず、これから宇宙事業に参入していきたいという企業様の新事業創出 / 新製品開発のコンサルティングを行います。</p>  
     </div>
-    <div align=left><img style="width:80vw;margin-top:2vw" src="@/assets/spacebusiness.jpg" alt="image"/></div>
+    <div align=center><img style="width:80vw;margin-top:2vw" src="@/assets/spacebusiness.jpg" alt="image"/></div>
     <div class="smission" style="margin-bottom:1.5vw;margin-top:5vw">
       <span style="margin-left:0.7vw">SPACE ROADMAP</span>
     </div>
@@ -92,7 +92,7 @@ body.bodys
 .h3s
   font-size: 3vmax
   font-family: "Arial Black"
-  margin-top: 1%
+  margin-top: 2%
   margin-bottom: 2%
   margin-left: -2%
 .smission

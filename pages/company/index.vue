@@ -1,5 +1,5 @@
 <template>
-  <div id="bg">
+  <div class="bgc">
     <global-nav-bar></global-nav-bar>
     <b-row>
       <b-col cols="6" class="border-right" style="border-right;padding-right:5vw;height:80%">
@@ -97,8 +97,8 @@ body.bodyc
     font-size: 0.9vmax
     font-family: "ヒラギノ角ゴシック"
     margin: 0
-#bg
+.bgc
   background-color: white
   color: black
-  margin: 10%
+  margin: 8%
 </style>

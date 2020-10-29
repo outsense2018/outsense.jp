@@ -20,6 +20,14 @@
               Portfolio
             </b-dropdown-item>
             <b-dropdown-divider />
+            <b-dropdown-item id="mozi" to="/earth">
+              Business(Earth)
+            </b-dropdown-item>
+            <b-dropdown-divider />
+            <b-dropdown-item id="mozi" to="/space">
+              Business(Space)
+            </b-dropdown-item>
+            <b-dropdown-divider />
             <b-dropdown-item id="mozi" to="/technology">
               Technology
             </b-dropdown-item>
@@ -38,14 +46,6 @@
             <b-dropdown-divider />
             <b-dropdown-item id="mozi" to="/contact">
               Contact / Access
-            </b-dropdown-item>
-            <b-dropdown-divider />
-            <b-dropdown-item id="mozi" to="/earth">
-              Business(Earth)
-            </b-dropdown-item>
-            <b-dropdown-divider />
-            <b-dropdown-item id="mozi" to="/space">
-              Business(Space)
             </b-dropdown-item>
           </div>
         </b-dropdown>

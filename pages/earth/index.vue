@@ -19,7 +19,7 @@
       <p>具体的なアイデアはないが、自社技術に新しい付加価値を付けたい、新商品を開発したい企業様におすすめのプランです。</p>
       <p>例）一緒に新規事業を考えてほしい/他企業とは何か違う面白いサービス・製品が欲しい/折りの技術で何ができるのか確かめたい</p>
     </div>
-    <div align=left style="margin-bottom:6vw"><img class="imge1" src="@/assets/earthcase1.jpg" alt="image"/></div>
+    <div align=center style="margin-bottom:6vw"><img class="imge1" src="@/assets/earthcase1.jpg" alt="image"/></div>
     <u><p class="case">{{"Case2.&nbsp;製品開発/製品課題解決サポート&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"}}</p></u>
     <p style="font-family:'ヒラギノ角ゴシック';font-size:1vmax;font-weight:bold">共同研究開発/業務受託</p>
     <div class="explaine">
@@ -27,7 +27,7 @@
       <p>企画/サービスの立案や営業はできるが、ものづくりのノウハウをお持ちでない企業におすすめのプランです。</p>
       <p>例）折り技術を用いて〇〇ような製品を製造できないか/製品に〇〇ような課題があり、研究開発を頼めないか/折りの技術や製品を用いたサービスを提供したい</p>
     </div>
-    <div align=left><img class="imge1" src="@/assets/earthcase2.jpg" alt="image"/></div>
+    <div align=center><img class="imge1" src="@/assets/earthcase2.jpg" alt="image"/></div>
     <div align=right style="margin-bottom:5vw">
       <b-button v-for="(content,index) in partContents1" :key="index"
         style="margin-bottom:3%;margin-left:1%"

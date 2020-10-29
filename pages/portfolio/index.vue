@@ -108,14 +108,14 @@ export default builder()
         company:"OUTSENSE 協業企業募集中",
         when:"Oct. 2019~",
       },
-      {
-        title:"折り紙による壁面装飾",
-        url:"/dnp.gif",
-        category:"展示品制作/図面納品",
-        detail:"J-WAVE様のイベント内でDNP様担当のブース壁面の装飾道具を設計。壁面に凹凸を表現し、輸送時には2m×6mから2m×0.5mに収納される。また、DNP様企業内展示会では数点の展示品製作も行った。",
-        company:"DNP 大日本印刷 様",
-        when:"Sep. 2019",
-      },
+      // {
+      //   title:"折り紙による壁面装飾",
+      //   url:"/dnp.gif",
+      //   category:"展示品制作/図面納品",
+      //   detail:"J-WAVE様のイベント内でDNP様担当のブース壁面の装飾道具を設計。壁面に凹凸を表現し、輸送時には2m×6mから2m×0.5mに収納される。また、DNP様企業内展示会では数点の展示品製作も行った。",
+      //   company:"DNP 大日本印刷 様",
+      //   when:"Sep. 2019",
+      // },
       {
         title:"展開式プライベート空間",
         url:"/kurage.gif",

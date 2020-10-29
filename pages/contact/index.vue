@@ -1,5 +1,5 @@
 <template>
-  <div id="bg">
+  <div class="bgcon">
     <global-nav-bar></global-nav-bar>
     <h3 class="h3ca">Contact / Access</h3>
     <b-row>
@@ -103,8 +103,8 @@ body.bodyca
   font-family: "ヒラギノ角ゴシック"
   border: solid 1px grey
   padding: 1vw
-#bg
+.bgcon
   background-color: white
   color: black
-  margin: 10%
+  margin: 8%
 </style>

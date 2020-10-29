@@ -8,9 +8,9 @@
       <b-col cols="6" style="padding-left:3vw;margin-top:0;padding-right:4vw">
         <div id="doc">
           <h3 class="h3v">Vision</h3>
-          <div id="change">
+          <!-- <div id="change">
             <span>日本語</span><span>｜</span><span style="color:grey">ENGLISH</span>
-          </div>
+          </div> -->
           <p class="pv">月面に住めないという常識を抜け出し月面に人が暮らす時代をつくること。</p>
           <br>
           <p class="pv">私たちは世の中の常識を抜け出し社会をアップデートすることを目指しています。</p>
@@ -67,7 +67,7 @@ body.bodyv
   color: black
   width: 80vw
   height: 100vw
-  margin: 10%
+  margin: 8%
 #left 
   position: absolute
   left: 0

@@ -6,11 +6,11 @@
         <p>弊社が保有している技術には以下のような特許等がございます。</p>
         <p>折りの技術を用いて、お客様のニーズ、製品課題や社会課題を解決いたします。</p>
       </b-col>
-      <b-col align=right cols="5" style="padding-left:3vw;margin-top:-2%">
+      <b-col align=right cols="5" style="padding-left:3vw;margin-top:-1%;margin-bottom:4%">
         <h3 class="h3t">Technology</h3>
-        <div id="change">
+        <!-- <div id="change">
           <span>日本語</span><span>｜</span><span style="color:grey">ENGLISH</span>
-        </div>
+        </div> -->
       </b-col>
     </b-row>
     <b-container fluid class="text-center">

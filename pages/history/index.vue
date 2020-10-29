@@ -85,5 +85,5 @@ body.bodyh
 .bgh
   background-color: white
   color: black
-  margin: 10%
+  margin: 8%
 </style>
