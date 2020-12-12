@@ -1,6 +1,22 @@
+# special setting
+assets/
+components/
+layouts/
+middleware/
+pages/
+plugins/
+static/
+store/
+.editorconfig
+.prettierrc
+jsconfig.jsconfig
+nuxt.config.js
+package-lock.json
+package.json
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
-# Logs
+Logs
 /logs
 *.log
 npm-debug.log*
