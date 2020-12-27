@@ -32,16 +32,17 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    // { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-    '@nuxtjs/google-analytics'
-  ],
-  googleAnalytics: {
-    id: 'G-G1HWMYJWJG' //自身のアナリティクスコード
-  },
+  // buildModules: [
+  //   '@nuxtjs/google-analytics'
+  // ],
+  // googleAnalytics: {
+  //   id: 'G-G1HWMYJWJG' //自身のアナリティクスコード
+  // },
   /*
   ** Nuxt.js modules
   */
@@ -50,6 +51,7 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    ['@nuxtjs/google-analytics', { id: 'G-G1HWMYJWJG' }],
   ],
   /*
   ** Axios module configuration
