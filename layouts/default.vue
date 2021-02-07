@@ -22,7 +22,7 @@ body
   margin: 0px
   padding: 0px
   overflow-y: hidden
-  background-color: black
+  background-color: white
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 </style>
