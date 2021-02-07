@@ -1,16 +1,7 @@
 # special setting
-assets/
-components/
-layouts/
-middleware/
-pages/
-plugins/
-static/
-store/
 .editorconfig
 .prettierrc
 jsconfig.jsconfig
-nuxt.config.js
 package-lock.json
 package.json
 
