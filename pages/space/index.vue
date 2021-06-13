@@ -1,10 +1,10 @@
 <template>
   <div>
     <b-container style="font-family:'ヒラギノ角ゴシック'">
-      <h3 class="h3s">Space Business</h3>
+      <h3 class="h3s">Space Development</h3>
       <div>
         <b-row  style="margin-bottom:5%" align-v="center">
-          <b-col md="auto" sm="11"><p style="font-size:2vmax;font-weight:bold;margin:0;padding:0">宇宙事業 ｜</p></b-col>
+          <b-col md="auto" sm="11"><p style="font-size:2vmax;font-weight:bold;margin:0;padding:0">宇宙開発 ｜</p></b-col>
           <b-col md="8" sm="11"><p style="font-size:1vmax;margin:0">宇宙居住 / 宇宙ミッション策定 / 宇宙の製造技術のノウハウを活かし、事業領域を問わず民間企業の宇宙事業参入をサポートし、月面居住施設の実現を目指します。</p></b-col>
         </b-row>
         <b-row style="margin-bottom:5%;font-size:1vmax">

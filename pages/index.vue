@@ -49,7 +49,7 @@
         <b-col md="4" sm="12" style="border:1px solid black">
           <b-row cols="1" align-v="center">
             <b-col style="padding:0"><router-link to="/space"><img class="imgb" src="@/assets/utyuu-img.jpg" alt="image"/></router-link></b-col>
-            <b-col><p id="titleb" style="color:#00B0F0">宇宙</p></b-col>
+            <b-col><p id="titleb" style="color:#00B0F0">宇宙開発</p></b-col>
             <b-col style="background-color:#DEEBF7;"><p id="categoryb" style="color:#00B0F0;">月面での暮らしの実現</p></b-col>
             <b-col id="detailb">
               <p>月面居住の実現に向けた共同研究開発事業</p>
@@ -60,7 +60,7 @@
         <b-col md="4" sm="12" style="border:1px solid black">
           <b-row cols="1" align-v="center">
             <b-col style="padding:0"><router-link to="/living"><img class="imgb" src="@/assets/seikatu-img.jpg" alt="image"/></router-link></b-col>
-            <b-col><p id="titleb" style="color:#92D050">生活</p></b-col>
+            <b-col><p id="titleb" style="color:#92D050">生活製品</p></b-col>
             <b-col style="background-color:#E2F0D9;"><p id="categoryb" style="color:#70AD47;">ライフスタイルの変化に寄り添う製品の提案</p></b-col>
             <b-col id="detailb">
               <p>共同研究開発/新規事業創出サポート事業</p>
@@ -71,7 +71,7 @@
         <b-col md="4" sm="12" style="border:1px solid black">
           <b-row cols="1" align-v="center">
             <b-col style="padding:0"><router-link to="/protection"><img class="imgb" src="@/assets/bousai-img.jpg" alt="image"/></router-link></b-col>
-            <b-col><p id="titleb" style="color:#B457E7">防災</p></b-col>
+            <b-col><p id="titleb" style="color:#B457E7">防災対策</p></b-col>
             <b-col style="background-color:#F0DEFA;"><p id="categoryb" style="color:#B457E7;">災害時に即時展開できる製品の提案</p></b-col>
             <b-col id="detailb">
               <p>社会課題解決型共同事業</p>

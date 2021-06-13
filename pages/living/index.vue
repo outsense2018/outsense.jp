@@ -1,10 +1,10 @@
 <template>
   <div>
     <b-container style="font-family:'ヒラギノ角ゴシック'">
-      <h3 class="h3l">Living Business</h3>
+      <h3 class="h3l">Living Products</h3>
       <div>
         <b-row  style="margin-bottom:5%" align-v="center">
-          <b-col md="auto" sm="11"><p style="font-size:2vmax;font-weight:bold;margin:0;padding:0">生活事業 ｜</p></b-col>
+          <b-col md="auto" sm="11"><p style="font-size:2vmax;font-weight:bold;margin:0;padding:0">生活製品 ｜</p></b-col>
           <b-col md="8" sm="11"><p style="font-size:1vmax;margin:0">折り技術と産業技術との掛け合わせに魅力を見出し、様々な分野の企業様との新規事業創出を行っております。折技術とあなたの技術の持つ可能性を考えてみませんか？</p></b-col>
         </b-row>
         <b-row style="margin-bottom:5%;font-size:1vmax">

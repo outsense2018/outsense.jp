@@ -13,15 +13,15 @@
             </b-dropdown-item>
             <b-dropdown-divider />
             <b-dropdown-item id="mozi" to="/space">
-              Space Business
+              Space Development
             </b-dropdown-item>
             <b-dropdown-divider />
             <b-dropdown-item id="mozi" to="/living">
-              Living Business
+              Living Products
             </b-dropdown-item>
             <b-dropdown-divider />
             <b-dropdown-item id="mozi" to="/protection">
-              Protection Business
+              Disaster Management
             </b-dropdown-item>
             <b-dropdown-divider />
             <b-dropdown-item id="mozi" to="/technology">

@@ -48,14 +48,16 @@ export default builder()
       { url:"/noguchi.jpg", name:"野口 信", alpha:"Sin Noguchi", job:"Engineer / Intern" },
       { url:"/kihira.jpg", name:"紀平 陸", alpha:"Riku Kihira", job:"Engineer / Intern" },
       { url:"/yamada.jpg", name:"山田 周平", alpha:"Shuhei Yamada", job:"Engineer / Intern" },
+      { url:"/saito.jpg", name:"斎藤 香里", alpha:"Kaori Saito", job:"総務経理事務" },
+      { url:"/kudo.jpg", name:"工藤 麻衣", alpha:"Mai Kudo", job:"営業事務" },
     ];
     const advisers = [
-      { url:"/human.png", name:"丸 幸弘", alpha:"Yukihiro Maru", job:"経営顧問", company:"株式会社リバネス", role:"代表取締役 グループCEO" },
-      { url:"/human.png", name:"加藤 大直", alpha:"Hironao Kato", job:"技術/経営顧問", company:"株式会社MagnaRecta", role:"CTO" },
-      { url:"/human.png", name:"土場 義浩", alpha:"Yoshihiro Doba", job:"技術アドバイザー", company:"サンケイエンジニアリング株式会社", role:"代表取締役" },
-      { url:"/human.png", name:"十亀 昭人", alpha:"Akito Sogame", job:"技術顧問", company:"東海大学", role:"工学部建築学科 准教授" },
-      { url:"/human.png", name:"白田 陽介", alpha:"Yosuke Hakuta", job:"税理士/会計士", company:"白田陽介税理士事務所", role:"" },
-      // { url:"/human.png", name:"三井 睦貴", alpha:"Mutsuki Mithui", job:"弁護士", company:"荒井東京法律事務所", role:"" },
+      { url:"/maru.jpg", name:"丸 幸弘", alpha:"Yukihiro Maru", job:"経営顧問", company:"株式会社リバネス", role:"代表取締役 グループCEO" },
+      { url:"/kato.jpg", name:"加藤 大直", alpha:"Hironao Kato", job:"技術/経営顧問", company:"株式会社MagnaRecta", role:"CTO" },
+      { url:"/doba.jpg", name:"土場 義浩", alpha:"Yoshihiro Doba", job:"技術アドバイザー", company:"サンケイエンジニアリング株式会社", role:"代表取締役" },
+      { url:"/sogame.jpg", name:"十亀 昭人", alpha:"Akito Sogame", job:"技術顧問", company:"東海大学", role:"工学部建築学科 准教授" },
+      { url:"/hakuta.jpg", name:"白田 陽介", alpha:"Yosuke Hakuta", job:"税理士/会計士", company:"白田陽介税理士事務所", role:"" },
+      { url:"/mitsui.jpg", name:"三井 睦貴", alpha:"Mutsuki Mithui", job:"弁護士/法律顧問", company:"荒井東京法律事務所", role:"" },
     ];
     return {members, advisers}
   }  
