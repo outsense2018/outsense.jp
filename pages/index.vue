@@ -123,6 +123,11 @@ export default builder()
   data() {
     const contents = [
       {
+        day:"20 July, 2021",
+        title:"令和3年度、大田区産業振興協会様の「新製品・新技術開発支援事業」に採択されました！",
+        url:"https://www.pio-ota.jp/news/2021/07/3-14.html",
+      },
+      {
         day:"27 Dec, 2020",
         title:"TXN系列全国6局ネット「辛坊×ホリエモン 宇宙はこんなに近かった!!」にて弊社が取り上げられました！",
         url:"https://www.tv-osaka.co.jp/sp/uchu_sp/",
@@ -148,7 +153,7 @@ export default builder()
         url:"https://lne.st/2019/08/20/ota-city2019/?fbclid=IwAR2isJFtrWT0uIMKyNFJhoF38NgV9bXbtiIib2vAnapz-9eLut2UBUULceA",
       },
       {
-        day:"05 Jun, 2019",
+        day:"05 June, 2019",
         title:"2019年度「いばらき宇宙ビジネス支援事業」に採択されました！",
         url:"https://www.pref.ibaraki.jp/kikaku/kagaku/kokusai/documents/documents/koufu0607.pdf",
       },
