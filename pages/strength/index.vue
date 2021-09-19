@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <img src="@/assets/newtop.jpg" alt="トップ" style="width:100%" align=center />
+      <img src="@/assets/st-top.png" alt="トップ" style="width:100%" align=center />
     </div> 
     <b-container style="font-family:'Noto Sans JP'">
 
@@ -259,8 +259,7 @@ export default builder()
   text-align: left
   margin-bottom: 3%
 #title
-  margin: 0 0 0 0
-  margin-right: unquote("calc(50% - min(80px, 5vmax))")
+  margin: 0 50% 0 0
   padding: 1vw 3vw 1vw 3vw
   font-size: unquote("min(24px, 1.5vmax)")
   font-weight: bold

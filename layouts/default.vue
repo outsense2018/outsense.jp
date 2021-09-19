@@ -21,8 +21,10 @@ export default builder()
 }).build();
 </script>
 
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 <style lang="sass">
 body
+  font-family: 'Noto Sans JP'
   overflow-y: scroll
   background-color: white
   -webkit-font-smoothing: antialiased
